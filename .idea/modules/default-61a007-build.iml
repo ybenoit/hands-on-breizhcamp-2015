@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="default-61a007-build" external.linked.project.path="$MODULE_DIR$/../../project" external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" sbt.imports="sbt._, Process._, Keys._" sbt.resolvers="http://repo1.maven.org/maven2/|maven|public, /Users/Yoann/.ivy2/cache|ivy|Local cache" type="SBT_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/../../project/target/idea-classes" />
+    <output-test url="file://$MODULE_DIR$/../../project/target/idea-test-classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../project">
+      <sourceFolder url="file://$MODULE_DIR$/../../project" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/../../project/project/target" />
+      <excludeFolder url="file://$MODULE_DIR$/../../project/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="SBT: sbt-and-plugins">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/actions-0.12.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/compiler-integration-0.12.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/compile-0.12.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/xsbti/interface-0.12.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/commons-logging-1.0.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/incremental-compiler-0.12.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/commons-httpclient-3.1.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/sbinary_2.9.0-0.4.0.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/sbt-0.12.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/jsch-0.1.46.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/io-0.12.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/test-interface-0.5.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/ivy-0.12.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/api-0.12.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/main-0.12.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/persist-0.12.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/tasks-0.12.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/control-0.12.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/lib/scala-compiler.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/collections-0.12.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/tracking-0.12.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/test-agent-0.12.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/ivy-2.3.0-rc1.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/completion-0.12.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/compiler-ivy-integration-0.12.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/launcher-interface-0.12.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/command-0.12.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/task-system-0.12.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/classfile-0.12.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/run-0.12.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/testing-0.12.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/lib/jansi.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/lib/jline.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/cache-0.12.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/classpath-0.12.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/logging-0.12.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/process-0.12.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/jline-1.0.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/commons-codec-1.2.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/lib/scala-library.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/actions-0.12.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/compiler-integration-0.12.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/compile-0.12.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/xsbti/interface-0.12.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/commons-logging-1.0.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/incremental-compiler-0.12.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/commons-httpclient-3.1.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/sbinary_2.9.0-0.4.0.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/sbt-0.12.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/jsch-0.1.46.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/io-0.12.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/test-interface-0.5.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/ivy-0.12.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/api-0.12.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/main-0.12.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/persist-0.12.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/tasks-0.12.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/control-0.12.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/lib/scala-compiler.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/collections-0.12.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/tracking-0.12.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/test-agent-0.12.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/ivy-2.3.0-rc1.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/completion-0.12.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/compiler-ivy-integration-0.12.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/launcher-interface-0.12.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/command-0.12.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/task-system-0.12.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/classfile-0.12.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/run-0.12.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/testing-0.12.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/lib/jansi.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/lib/jline.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/cache-0.12.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/classpath-0.12.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/logging-0.12.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/process-0.12.4.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/jline-1.0.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/org.scala-sbt/sbt/0.12.4/commons-codec-1.2.jar!/" />
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.9.2/lib/scala-library.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/../../lib_managed/srcs/org.scala-lang/scala-library/scala-library-2.11.6-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib_managed/srcs/org.scala-sbt/compiler-ivy-integration/compiler-ivy-integration-0.12.4-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib_managed/srcs/com.jcraft/jsch/jsch-0.1.46-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib_managed/srcs/org.scala-sbt/logging/logging-0.12.4-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib_managed/srcs/org.scala-sbt/io/io-0.12.4-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib_managed/srcs/org.scala-sbt/run/run-0.12.4-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib_managed/srcs/org.scala-sbt/cache/cache-0.12.4-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib_managed/srcs/org.scala-sbt/classpath/classpath-0.12.4-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib_managed/srcs/org.scala-sbt/ivy/ivy-0.12.4-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib_managed/srcs/org.scala-sbt/precompiled-2_10_1/precompiled-2_10_1-0.12.4-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib_managed/srcs/org.scala-sbt/test-agent/test-agent-0.12.4-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib_managed/srcs/org.scala-lang/scala-reflect/scala-reflect-2.11.6-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib_managed/srcs/org.scala-sbt/classfile/classfile-0.12.4-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib_managed/srcs/org.scala-sbt/completion/completion-0.12.4-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib_managed/srcs/commons-httpclient/commons-httpclient/commons-httpclient-3.1-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib_managed/srcs/org.scala-sbt/precompiled-2_8_2/precompiled-2_8_2-0.12.4-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib_managed/srcs/org.scala-sbt/compile/compile-0.12.4-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib_managed/srcs/org.scala-sbt/task-system/task-system-0.12.4-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib_managed/srcs/jline/jline/jline-1.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib_managed/srcs/org.scala-lang.modules/scala-parser-combinators_2.11/scala-parser-combinators_2.11-1.0.3-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib_managed/srcs/org.apache.ivy/ivy/ivy-2.3.0-rc1-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib_managed/srcs/org.scala-sbt/tasks/tasks-0.12.4-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib_managed/srcs/org.scala-sbt/testing/testing-0.12.4-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib_managed/srcs/org.scala-sbt/actions/actions-0.12.4-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib_managed/srcs/org.scala-sbt/launcher-interface/launcher-interface-0.12.4-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib_managed/srcs/org.scala-tools.sbinary/sbinary_2.9.0/sbinary_2.9.0-0.4.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib_managed/srcs/org.scala-sbt/persist/persist-0.12.4-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib_managed/srcs/org.scala-lang/scala-compiler/scala-compiler-2.11.6-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib_managed/srcs/org.scala-sbt/command/command-0.12.4-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib_managed/srcs/org.scala-sbt/sbt/sbt-0.12.4-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib_managed/srcs/org.scala-sbt/collections/collections-0.12.4-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib_managed/srcs/org.scala-sbt/tracking/tracking-0.12.4-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib_managed/srcs/org.scala-sbt/api/api-0.12.4-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib_managed/srcs/org.scala-sbt/interface/interface-0.12.4-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib_managed/srcs/commons-logging/commons-logging/commons-logging-1.0.4-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib_managed/srcs/org.scala-sbt/control/control-0.12.4-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib_managed/srcs/org.scala-sbt/process/process-0.12.4-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib_managed/srcs/org.scala-sbt/main/main-0.12.4-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib_managed/srcs/org.scala-sbt/compiler-integration/compiler-integration-0.12.4-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib_managed/srcs/org.scala-lang.modules/scala-xml_2.11/scala-xml_2.11-1.0.3-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib_managed/srcs/org.scala-sbt/precompiled-2_9_3/precompiled-2_9_3-0.12.4-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib_managed/srcs/org.scala-sbt/incremental-compiler/incremental-compiler-0.12.4-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>

@@ -4,7 +4,7 @@
 		module="hands-on-mix-it-2015_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20150416145634"
+		publication="20150507140551"
 	>
 		<description>
 		hands-on-mix-it-2015
@@ -26,7 +26,7 @@
 	</configurations>
 	<publications>
 		<artifact name="hands-on-mix-it-2015_2.11" type="pom" ext="pom" conf="pom"/>
-		<artifact name="hands-on-mix-it-2015_2.11" type="jar" ext="jar" conf="optional" e:classifier="download"/>
+		<artifact name="hands-on-mix-it-2015_2.11" type="jar" ext="jar" conf="optional" e:classifier="download, resolveClassifiers, resolveSbtClassifiers"/>
 	</publications>
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.11.6" conf="compile->default(compile)"/>

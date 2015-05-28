@@ -12,21 +12,15 @@ object KMeansClusteringStubs {
      // Loading data
      // TODO : read file ./src/main/resources/data_titanic.csv
 
-     // Parsing Data
-     // TODO : use function in tools/Utilities to get an RDD without header
-
      // Feature Engineering
      // TODO : use the featureEngineering method in features/Engineering to get the cleaned data.
-     // Be carefull, you will get a RDD[LabeledPoint]
-
-     // Get the features
-     // TODO : get the data we want to analyse (RDD[Vector]) use the .features method of LabeledPoint
 
      // Modelling
      // TODO : Train a KMeans model on the data set
 
-     // Inspect population of each cluster
-     // TODO : For each cluster look the center and the percentage of survivor. Use the getStatsPerCluster method in tools/Utilities
+     // Inspect centroid of each cluster
+     println("Clusters description")
+     // TODO : For each cluster, print the centroid information. You can use the clustersInfo method in tools/Utilities
 
 
    }

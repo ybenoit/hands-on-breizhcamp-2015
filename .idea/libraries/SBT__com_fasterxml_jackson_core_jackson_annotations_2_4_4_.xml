@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="SBT: com.fasterxml.jackson.core:jackson-annotations:2.4.4:">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib_managed/bundles/com.fasterxml.jackson.core/jackson-annotations/jackson-annotations-2.4.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib_managed/jars/com.fasterxml.jackson.core/jackson-annotations/jackson-annotations-2.4.4.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/lib_managed/docs/com.fasterxml.jackson.core/jackson-annotations/jackson-annotations-2.4.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib_managed/srcs/com.fasterxml.jackson.core/jackson-annotations/jackson-annotations-2.4.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

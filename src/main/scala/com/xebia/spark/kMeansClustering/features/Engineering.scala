@@ -1,18 +1,16 @@
 package com.xebia.spark.kMeansClustering.features
 
 import org.apache.spark.mllib.linalg.{Vectors, Vector}
-import org.apache.spark.mllib.regression.LabeledPoint
 import org.apache.spark.rdd.RDD
 
 
 object Engineering {
 
-  def featureEngineering(data : RDD[String]): RDD[LabeledPoint] = {
+  def featureEngineering(data : RDD[String]): RDD[Vector] = {
 
     data.map(line => {
 
       val values = line.split('§')
-      val label = values(1).toDouble
 
       val pClass = values(0).toDouble
 
@@ -27,9 +25,9 @@ object Engineering {
         case l => l.toDouble
       }
 
-      val numericalData = Array(pClass, age, sibsp, parch, fair)
+      val numericalData = Array(pClass, age, fair, sibsp, parch)
 
-      LabeledPoint(label, Vectors.dense(numericalData))
+      Vectors.dense(numericalData)
     })
 
   }

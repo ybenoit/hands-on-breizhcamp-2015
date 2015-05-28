@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="SBT: org.json4s:json4s-jackson_2.11:3.2.10:">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib_managed/jars/org.json4s/json4s-jackson_2.11/json4s-jackson_2.11-3.2.10.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/lib_managed/docs/org.json4s/json4s-jackson_2.11/json4s-jackson_2.11-3.2.10-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib_managed/srcs/org.json4s/json4s-jackson_2.11/json4s-jackson_2.11-3.2.10-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

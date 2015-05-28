@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="SBT: org.spark-project:pyrolite:2.0.1:">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib_managed/jars/org.spark-project/pyrolite/pyrolite-2.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/lib_managed/docs/org.spark-project/pyrolite/pyrolite-2.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib_managed/srcs/org.spark-project/pyrolite/pyrolite-2.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="SBT: com.twitter:parquet-format:2.2.0-rc1:">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib_managed/jars/com.twitter/parquet-format/parquet-format-2.2.0-rc1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/lib_managed/docs/com.twitter/parquet-format/parquet-format-2.2.0-rc1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib_managed/srcs/com.twitter/parquet-format/parquet-format-2.2.0-rc1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

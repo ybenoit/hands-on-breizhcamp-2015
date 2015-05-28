@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="SBT: org.apache.commons:commons-math:2.1:">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib_managed/jars/org.apache.commons/commons-math/commons-math-2.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/lib_managed/docs/org.apache.commons/commons-math/commons-math-2.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib_managed/srcs/org.apache.commons/commons-math/commons-math-2.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
