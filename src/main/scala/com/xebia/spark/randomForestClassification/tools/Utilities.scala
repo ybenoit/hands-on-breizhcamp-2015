@@ -40,7 +40,7 @@ object Utilities {
    * @param maxBinsGrid: The maximum number of leaves for each tree
    * @return The best parameters found, in a tuple.
    */
-  def gridSearchRandomForestClassifier(trainSet: RDD[LabeledPoint],
+  def gridSearchRFClassifier(trainSet: RDD[LabeledPoint],
                                        valSet: RDD[LabeledPoint],
                                        categoricalFeaturesInfo: Map[Int, Int] = Map[Int, Int](),
                                        numTreesGrid: Array[Int] = Array(10),

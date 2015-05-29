@@ -587,29 +587,33 @@ val neg = LabeledPoint(0.0, Vectors.sparse(3, Array(0, 2), Array(1.0, 3.0)))
                 </p>
             </section>
             <section>
-                <h4>Solution: Main</h4>
+                <h4>Solution</h4>
                 <pre class="scala"><code class="hljs">
 // Loading data
-val rawData = sc.textFile("./src/main/resources/data_titanic.csv")
-
-// Parsing Data
-val data = extractHeader(rawData)._2
+val rawData: RDD[String] = sc.textFile("./src/main/resources/data_titanic.csv")
 
 // Feature Engineering
-val cleanData = featureEngineering(data)
-
-// Get the features
-val featuredData = cleanData.map(_.features)
+val cleanData: RDD[Vector] = featureEngineering(rawData)
 
 // Modelling
-val model = KMeans.train(featuredData, 2, 20)
+val model: KMeansModel = KMeans.train(cleanData, 2, 50)
 
-// Evaluation
-val (accuracy, confusion) = getMetrics(model, cleanData)
+// Inspect centroid of each cluster
+println("Clusters description")
+Utilities.clustersInfo(model)
+                </code></pre>
+                <pre class="scala"><code class="hljs">
+/**
+* Gives the centroids information of a KMeansModel
+* @param model A KMeansModel from the method KMeans.train()
+* @return The centroids and the proportion of survivors
+*/
+def clustersInfo(model: KMeansModel) = {
 
-// Print results
-println(s"Confusion Matrix: \n $confusion")
-println(s"Error: $accuracy")
+    val centroids = model.clusterCenters
+
+    centroids.foreach(l => println(s"Class: ${l(0).toInt}, Age: ${l(1).toInt}, Fair: ${l(2).toInt}"))
+}
                 </code></pre>
             </section>
         </section>
@@ -619,363 +623,20 @@ println(s"Error: $accuracy")
         <section>
             <h3>Arbres de décision</h3>
             <section>
-                <h4>Construction</h4>
-                <table style="width:60%; font-size:20px">
-                    <tr>
-                        <th>Sex</th>
-                        <th>Age</th> 
-                        <th>Class</th>
-                        <th>Alive</th>
-                    </tr>
-                    <tr>
-                        <td><font color="red">F</font></td>
-                        <td><font color="red">49</font></td> 
-                        <td><font color="red">1</font></td>
-                        <td><font color="red">No</font></td>
-                    </tr>
-                    <tr>
-                        <td><font color="red">M</font></td>
-                        <td><font color="red">18</font></td> 
-                        <td><font color="red">1</font></td>
-                        <td><font color="red">No</font></td>
-                    </tr>
-                    <tr>
-                        <td><font color="green">M</font></td>
-                        <td><font color="green">48</font></td> 
-                        <td><font color="green">1</font></td>
-                        <td><font color="green">Yes</font></td>
-                    </tr>
-                    <tr>
-                        <td><font color="green">F</font></td>
-                        <td><font color="green">19</font></td> 
-                        <td><font color="green">2</font></td>
-                        <td><font color="green">Yes</font></td>
-                    </tr>
-                    <tr>
-                        <td><font color="green">M</font></td>
-                        <td><font color="green">24</font></td> 
-                        <td><font color="green">2</font></td>
-                        <td><font color="green">Yes</font></td>
-                    </tr>
-                    <tr>
-                        <td><font color="green">F</font></td>
-                        <td><font color="green">24</font></td> 
-                        <td><font color="green">1</font></td>
-                        <td><font color="green">Yes</font></td>
-                    </tr>
-                    <tr>
-                        <td><font color="red">F</font></td>
-                        <td><font color="red">41</font></td> 
-                        <td><font color="red">3</font></td>
-                        <td><font color="red">No</font></td>
-                    </tr>
-                    <tr>
-                        <td><font color="green">M</font></td>
-                        <td><font color="green">74</font></td> 
-                        <td><font color="green">3</font></td>
-                        <td><font color="green">Yes</font></td>
-                    </tr>
-                    <tr>
-                        <td><font color="red">M</font></td>
-                        <td><font color="red">32</font></td> 
-                        <td><font color="red">2</font></td>
-                        <td><font color="red">No</font></td>
-                    </tr>
-                    <tr>
-                        <td><font color="green">F</font></td>
-                        <td><font color="green">71</font></td> 
-                        <td><font color="green">3</font></td>
-                        <td><font color="green">Yes</font></td>
-                    </tr>
-                    <tr>
-                        <td><font color="red">M</font></td>
-                        <td><font color="red">27</font></td> 
-                        <td><font color="red">1</font></td>
-                        <td><font color="red">No</font></td>
-                    </tr>
-                    <tr>
-                        <td><font color="red">M</font></td>
-                        <td><font color="red">31</font></td> 
-                        <td><font color="red">3</font></td>
-                        <td><font color="red">No</font></td>
-                    </tr>
-                    <tr>
-                        <td><font color="green">M</font></td>
-                        <td><font color="green">53</font></td> 
-                        <td><font color="green">2</font></td>
-                        <td><font color="green">Yes</font></td>
-                    </tr>
-                    <tr>
-                        <td><font color="green">F</font></td>
-                        <td><font color="green">27</font></td> 
-                        <td><font color="green">3</font></td>
-                        <td><font color="green">Yes</font></td>
-                    </tr>
-                    <tr>
-                        <td><font color="red">F</font></td>
-                        <td><font color="red">19</font></td> 
-                        <td><font color="red">1</font></td>
-                        <td><font color="red">No</font></td>
-                    </tr>
-                </table>
+            <h4>Construction</h4>
+                <img src="images/DecisionTree-1.png">
             </section>
             <section>
-                <h4>Construction</h4>
-                <div class="center">
-                    <img width="450px" src="images/decisionTree1.png">
-                </div>
-                <div class="half">
-                    <table style="width:60%; font-size:20px">
-                        <tr>
-                            <th>Sex</th>
-                            <th>Age</th> 
-                            <th>Class</th>
-                            <th>Alive</th>
-                        </tr>
-                        <tr>
-                            <td><font color="red">F</font></td>
-                            <td><font color="red">49</font></td> 
-                            <td><font color="red">1</font></td>
-                            <td><font color="red">No</font></td>
-                        </tr>
-                        <tr>
-                            <td><font color="green">F</font></td>
-                            <td><font color="green">19</font></td> 
-                            <td><font color="green">2</font></td>
-                            <td><font color="green">Yes</font></td>
-                        </tr>
-                        <tr>
-                            <td><font color="green">F</font></td>
-                            <td><font color="green">24</font></td> 
-                            <td><font color="green">1</font></td>
-                            <td><font color="green">Yes</font></td>
-                        </tr>
-                        <tr>
-                            <td><font color="red">F</font></td>
-                            <td><font color="red">41</font></td> 
-                            <td><font color="red">3</font></td>
-                            <td><font color="red">No</font></td>
-                        </tr>
-                        <tr>
-                            <td><font color="green">F</font></td>
-                            <td><font color="green">71</font></td> 
-                            <td><font color="green">3</font></td>
-                            <td><font color="green">Yes</font></td>
-                        </tr>
-                        <tr>
-                            <td><font color="green">F</font></td>
-                            <td><font color="green">27</font></td> 
-                            <td><font color="green">3</font></td>
-                            <td><font color="green">Yes</font></td>
-                        </tr>
-                        <tr>
-                            <td><font color="red">F</font></td>
-                            <td><font color="red">19</font></td> 
-                            <td><font color="red">1</font></td>
-                            <td><font color="red">No</font></td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="half">
-                    <table style="width:60%; font-size:20px">
-                        <tr>
-                            <th>Sex</th>
-                            <th>Age</th> 
-                            <th>Class</th>
-                            <th>Alive</th>
-                        </tr>
-                        <tr>
-                            <td><font color="red">M</font></td>
-                            <td><font color="red">18</font></td> 
-                            <td><font color="red">1</font></td>
-                            <td><font color="red">No</font></td>
-                        </tr>
-                        <tr>
-                            <td><font color="green">M</font></td>
-                            <td><font color="green">48</font></td> 
-                            <td><font color="green">1</font></td>
-                            <td><font color="green">Yes</font></td>
-                        </tr>
-                        <tr>
-                            <td><font color="green">M</font></td>
-                            <td><font color="green">24</font></td> 
-                            <td><font color="green">2</font></td>
-                            <td><font color="green">Yes</font></td>
-                        </tr>
-                        <tr>
-                            <td><font color="green">M</font></td>
-                            <td><font color="green">74</font></td> 
-                            <td><font color="green">3</font></td>
-                            <td><font color="green">Yes</font></td>
-                        </tr>
-                        <tr>
-                            <td><font color="red">M</font></td>
-                            <td><font color="red">32</font></td> 
-                            <td><font color="red">2</font></td>
-                            <td><font color="red">No</font></td>
-                        </tr>
-                        <tr>
-                            <td><font color="red">M</font></td>
-                            <td><font color="red">27</font></td> 
-                            <td><font color="red">1</font></td>
-                            <td><font color="red">No</font></td>
-                        </tr>
-                        <tr>
-                            <td><font color="red">M</font></td>
-                            <td><font color="red">31</font></td> 
-                            <td><font color="red">3</font></td>
-                            <td><font color="red">No</font></td>
-                        </tr>
-                        <tr>
-                            <td><font color="green">M</font></td>
-                            <td><font color="green">53</font></td> 
-                            <td><font color="green">2</font></td>
-                            <td><font color="green">Yes</font></td>
-                        </tr>
-                    </table>
-                </div>
+                <img src="images/DecisionTree-2.png">
             </section>
             <section>
-                <h4>Construction</h4>
-                <div class="center">
-                    <img width="800px" src="images/decisionTree2.png">
-                </div>
-                <div>
-                    <table>
-                        <tr>
-                            <td>
-                                <table style="width:60%; font-size:20px">
-                                    <tr>
-                                        <th>Sex</th>
-                                        <th>Age</th> 
-                                        <th>Class</th>
-                                        <th>Alive</th>
-                                    </tr>
-                                    <tr>
-                                        <td><font color="red">F</font></td>
-                                        <td><font color="red">49</font></td> 
-                                        <td><font color="red">1</font></td>
-                                        <td><font color="red">No</font></td>
-                                    </tr>
-                                    <tr>
-                                        <td><font color="green">F</font></td>
-                                        <td><font color="green">24</font></td> 
-                                        <td><font color="green">1</font></td>
-                                        <td><font color="green">Yes</font></td>
-                                    </tr>
-                                    <tr>
-                                        <td><font color="red">F</font></td>
-                                        <td><font color="red">19</font></td> 
-                                        <td><font color="red">1</font></td>
-                                        <td><font color="red">No</font></td>
-                                    </tr>
-                                </table>
-                            </td>
-                            <td>
-                                <table style="width:60%; font-size:20px">
-                                    <tr>
-                                        <th>Sex</th>
-                                        <th>Age</th> 
-                                        <th>Class</th>
-                                        <th>Alive</th>
-                                    </tr>
-                                    <tr>
-                                        <td><font color="green">F</font></td>
-                                        <td><font color="green">19</font></td> 
-                                        <td><font color="green">2</font></td>
-                                        <td><font color="green">Yes</font></td>
-                                    </tr>
-                                    <tr>
-                                        <td><font color="red">F</font></td>
-                                        <td><font color="red">41</font></td> 
-                                        <td><font color="red">3</font></td>
-                                        <td><font color="red">No</font></td>
-                                    </tr>
-                                    <tr>
-                                        <td><font color="green">F</font></td>
-                                        <td><font color="green">71</font></td> 
-                                        <td><font color="green">3</font></td>
-                                        <td><font color="green">Yes</font></td>
-                                    </tr>
-                                    <tr>
-                                        <td><font color="green">F</font></td>
-                                        <td><font color="green">27</font></td> 
-                                        <td><font color="green">3</font></td>
-                                        <td><font color="green">Yes</font></td>
-                                    </tr>
-                                </table>
-                            </td>
-                            <td>
-                                <table style="width:60%; font-size:20px">
-                                    <tr>
-                                        <th>Sex</th>
-                                        <th>Age</th> 
-                                        <th>Class</th>
-                                        <th>Alive</th>
-                                    </tr>
-                                    <tr>
-                                        <td><font color="red">M</font></td>
-                                        <td><font color="red">18</font></td> 
-                                        <td><font color="red">1</font></td>
-                                        <td><font color="red">No</font></td>
-                                    </tr>
-                                    <tr>
-                                        <td><font color="green">M</font></td>
-                                        <td><font color="green">24</font></td> 
-                                        <td><font color="green">2</font></td>
-                                        <td><font color="green">Yes</font></td>
-                                    </tr>
-                                    <tr>
-                                        <td><font color="red">M</font></td>
-                                        <td><font color="red">32</font></td> 
-                                        <td><font color="red">2</font></td>
-                                        <td><font color="red">No</font></td>
-                                    </tr>
-                                    <tr>
-                                        <td><font color="red">M</font></td>
-                                        <td><font color="red">27</font></td> 
-                                        <td><font color="red">1</font></td>
-                                        <td><font color="red">No</font></td>
-                                    </tr>
-                                    <tr>
-                                        <td><font color="red">M</font></td>
-                                        <td><font color="red">31</font></td> 
-                                        <td><font color="red">3</font></td>
-                                        <td><font color="red">No</font></td>
-                                    </tr>
-                                </table>
-                            </td>
-                            <td>
-                                <table style="width:60%; font-size:20px">
-                                    <tr>
-                                        <th>Sex</th>
-                                        <th>Age</th> 
-                                        <th>Class</th>
-                                        <th>Alive</th>
-                                    </tr>
-                                    <tr>
-                                        <td><font color="green">M</font></td>
-                                        <td><font color="green">48</font></td> 
-                                        <td><font color="green">1</font></td>
-                                        <td><font color="green">Yes</font></td>
-                                    </tr>
-                                    <tr>
-                                        <td><font color="green">M</font></td>
-                                        <td><font color="green">74</font></td> 
-                                        <td><font color="green">3</font></td>
-                                        <td><font color="green">Yes</font></td>
-                                    </tr>
-                                    <tr>
-                                        <td><font color="green">M</font></td>
-                                        <td><font color="green">53</font></td> 
-                                        <td><font color="green">2</font></td>
-                                        <td><font color="green">Yes</font></td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
+                <img src="images/DecisionTree-3.png">
+            </section>
+            <section>
+                <img src="images/DecisionTree-4.png">
+            </section>
+            <section>
+                <img src="images/DecisionTree-5.png">
             </section>
             <section>
                 <h4>Choix des caractéristiques - Entropie</h4>
@@ -1030,35 +691,45 @@ println(s"Error: $accuracy")
 // Loading data
 val rawData = sc.textFile("./src/main/resources/data_titanic.csv")
 
-// Parsing Data
-val data = extractHeader(rawData)._2
-
 // Feature Engineering
-val cleanedData = Engineering.featureEngineering(data)
+val cleanData = Engineering.featureEngineering(rawData)
 
 // Splitting data
-val Array(trainSet, testSet) = cleanedData.randomSplit(Array(0.75, 0.25))
+val Array(trainSet, testSet) = cleanData.randomSplit(Array(0.75, 0.25), seed = 54)
 
 // Modelling
 // -------- Tuning parameters
+val numClass = 2
 val categoricalFeaturesInfo = Map(1 -> 2, 6 -> 4)
+val impurity: String = "entropy"
+val maxDepth: Int = 2
+val maxBins: Int = 12
 
 // -------- Training the model
-val model = decisionTreeTrainClassifier(categoricalFeaturesInfo = categoricalFeaturesInfo,
-  impurity = "entropy", maxDepth = 10, maxBins = 50)(trainSet)
+val model = DecisionTree.trainClassifier(trainSet, numClass, categoricalFeaturesInfo, impurity, maxDepth, maxBins)
 
 // Prediction & Evaluation
-val (accuracyTrain, confusionTrain) = getMetricsDecisionTree(model, trainSet)
-val (accuracyTest, confusionTest) = getMetricsDecisionTree(model, testSet)
+val accuracyTest = accuracyDecisionTree(model, testSet)
 
 // Print results
-println(s"Results for the training set")
-println(s"\t Accuracy: $accuracyTrain %")
-println(s"\t Confusion Matrix: \n $confusionTrain")
-
 println(s"Results for the test set")
 println(s"\t Accuracy: $accuracyTest %")
-println(s"\t Confusion Matrix: \n $confusionTest")
+                </code></pre>
+            </section>
+            <section>
+                <h4>Solution: Model Evaluation</h4>
+                </code></pre>
+                <pre class="scala"><code class="hljs">
+def accuracyDecisionTree(model: DecisionTreeModel, data: RDD[LabeledPoint]): Double = {
+
+    val predictionsAndLabels = data.map(l => (model.predict(l.features), l.label))
+
+    val metrics: MulticlassMetrics = new MulticlassMetrics(predictionsAndLabels)
+
+    val accuracy = 100d * metrics.precision
+
+    accuracy
+}
                 </code></pre>
             </section>
         </section>
@@ -1123,35 +794,32 @@ println(s"\t Confusion Matrix: \n $confusionTest")
 // Loading data
 val rawData = sc.textFile("./src/main/resources/data_titanic.csv")
 
-// Parsing Data
-val data = extractHeader(rawData)._2
-
 // Feature Engineering
-val cleanedData = Engineering.featureEngineering(data)
+val cleanData = Engineering.featureEngineering(rawData)
 
 // Splitting data
-val Array(trainSet, testSet) = cleanedData.randomSplit(Array(0.75, 0.25))
+val Array(trainSet, testSet) = cleanData.randomSplit(Array(0.75, 0.25), seed=54)
 
 // Modelling
 // -------- Tuning parameters
+val numClass = 2
 val categoricalFeaturesInfo = Map(1 -> 2, 6 -> 4)
+val numTrees = 50
+val featureSubsetStrategy = "auto"
+val impurity = "entropy"
+val maxDepth = 2
+val maxBins = 12
 
 // -------- Training the model
-val model = randomForestTrainClassifier(categoricalFeaturesInfo = categoricalFeaturesInfo, numTrees = 50,
-  impurity = "entropy", maxDepth = 10, maxBins = 50)(trainSet)
+val model: RandomForestModel = RandomForest.trainClassifier(trainSet, numClass, categoricalFeaturesInfo, numTrees,
+  featureSubsetStrategy, impurity, maxDepth, maxBins)
 
 // Prediction & Evaluation
-val (accuracyTrain, confusionTrain) = getMetricsRandomForest(model, trainSet)
-val (accuracyTest, confusionTest) = getMetricsRandomForest(model, testSet)
+val accuracyTest = accuracyRandomForest(model, testSet)
 
 // Print results
-println(s"Results for the training set")
-println(s"\t Accuracy: $accuracyTrain %")
-println(s"\t Confusion Matrix: \n $confusionTrain")
-
 println(s"Results for the test set")
 println(s"\t Accuracy: $accuracyTest %")
-println(s"\t Confusion Matrix: \n $confusionTest")
                 </code></pre>
             </section>
             <section>
@@ -1199,38 +867,37 @@ println(s"\t Confusion Matrix: \n $confusionTest")
             <section>
                 <h4>Solution: Grid Search</h4>
                 <pre class="scala"><code class="hljs">
-def gridSearchRandomForestClassifier(trainSet: RDD[LabeledPoint],
-                                   valSet: RDD[LabeledPoint],
-                                   categoricalFeaturesInfo: Map[Int, Int] = Map[Int, Int](),
-                                   numTreesGrid: Array[Int] = Array(10),
-                                   featuresSubsetStrategy: String = "auto",
-                                   impurityGrid: Array[String] = Array("entropy"),
-                                   maxDepthGrid: Array[Int] = Array(2),
-                                   maxBinsGrid: Array[Int] = Array(4)) = {
+def gridSearchRFClassifier(trainSet: RDD[LabeledPoint],
+                           valSet: RDD[LabeledPoint],
+                           categoricalFeaturesInfo: Map[Int, Int] = Map[Int, Int](),
+                           numTreesGrid: Array[Int] = Array(10),
+                           featuresSubsetStrategy: String = "auto",
+                           impurityGrid: Array[String] = Array("entropy"),
+                           maxDepthGrid: Array[Int] = Array(2),
+                           maxBinsGrid: Array[Int] = Array(4)) = {
 
-val gridSearch =
+    val gridSearch =
 
-  for (numTrees <- numTreesGrid;
-       impurity <- impurityGrid;
-       maxDepth <- maxDepthGrid;
-       maxBins <- maxBinsGrid)
-    yield {
+      for (numTrees <- numTreesGrid;
+           impurity <- impurityGrid;
+           maxDepth <- maxDepthGrid;
+           maxBins <- maxBinsGrid)
+        yield {
 
-      val model = randomForestTrainClassifier(categoricalFeaturesInfo,
-        numTrees, featuresSubsetStrategy, impurity, maxDepth, maxBins)(trainSet)
+          val model = RandomForest.trainClassifier(trainSet, 2, categoricalFeaturesInfo, numTrees, 
+          featuresSubsetStrategy, impurity, maxDepth, maxBins)
+          val accuracyVal = accuracyRandomForest(model, valSet)
 
-      val accuracyVal = getMetricsRandomForest(model, valSet)._1
+          ((numTrees, impurity, maxDepth, maxBins), accuracyVal)
+        }
 
-      ((numTrees, impurity, maxDepth, maxBins), accuracyVal)
-    }
+    val params = gridSearch.sortBy(_._2).reverse(0)._1
+    val numTrees = params._1
+    val impurity = params._2
+    val maxDepth = params._3
+    val maxBins = params._4
 
-val params = gridSearch.sortBy(_._2).reverse(0)._1
-val numTrees = params._1
-val impurity = params._2
-val maxDepth = params._3
-val maxBins = params._4
-
-(categoricalFeaturesInfo, numTrees, featuresSubsetStrategy, impurity, maxDepth, maxBins)
+    (numTrees, impurity, maxDepth, maxBins)
 }
                 </code></pre>
             </section>
@@ -1240,40 +907,33 @@ val maxBins = params._4
 // Loading data
 val rawData = sc.textFile("./src/main/resources/data_titanic.csv")
 
-// Parsing Data
-val data = extractHeader(rawData)._2
-
 // Feature Engineering
-val cleanedData = Engineering.featureEngineering(data)
+val cleanData = Engineering.featureEngineering(rawData)
 
 // Splitting data
-val Array(trainSet, valSet, testSet) = cleanedData.randomSplit(Array(0.7, 0.15, 0.15))
+val Array(trainSet, valSet, testSet) = cleanData.randomSplit(Array(0.6, 0.15, 0.25), seed = 54)
 
 // Modelling
 // -------- Tuning parameters
 val categoricalFeaturesInfo = Map(1 -> 2, 6 -> 4)
+val featuresSubsetStrategy = "auto"
 val bestParams = gridSearchRandomForestClassifier(trainSet, valSet,
-  categoricalFeaturesInfo = categoricalFeaturesInfo, numTreesGrid = Array(10, 20),
-  impurityGrid = Array("entropy", "gini"), maxDepthGrid = Array(5, 10), maxBinsGrid = Array(30, 50))
+  categoricalFeaturesInfo = categoricalFeaturesInfo, numTreesGrid = Array(50, 100),
+  impurityGrid = Array("entropy", "gini"), maxDepthGrid = Array(5, 10), maxBinsGrid = Array(50, 100))
 
 // -------- Training the model
 val dataTrain = sc.union(trainSet, valSet)
-val model = (randomForestTrainClassifier _).tupled(bestParams)(dataTrain)
+val (numTrees, impurity, maxDepth, maxBins) = bestParams
+val model = RandomForest.trainClassifier(dataTrain, 2, categoricalFeaturesInfo, numTrees, featuresSubsetStrategy, impurity, maxDepth, maxBins)
 
 // Prediction & Evaluation
-val (accuracyTrain, confusionTrain) = getMetricsRandomForest(model, dataTrain)
-val (accuracyTest, confusionTest) = getMetricsRandomForest(model, testSet)
+val accuracyTest = accuracyRandomForest(model, testSet)
 
 // Print results
 println(s"Best parameters found : \n $bestParams \n")
 
-println(s"Results for the training set")
-println(s"\t Accuracy: $accuracyTrain %")
-println(s"\t Confusion Matrix: \n $confusionTrain \n")
-
 println(s"Results for the test set")
 println(s"\t Accuracy: $accuracyTest %")
-println(s"\t Confusion Matrix: \n $confusionTest")
                 </code></pre>
             </section>
         </section>

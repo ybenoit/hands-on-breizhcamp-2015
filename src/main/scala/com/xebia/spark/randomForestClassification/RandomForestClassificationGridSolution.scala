@@ -27,7 +27,7 @@ object RandomForestClassificationGridSolution {
     // -------- Tuning parameters
     val categoricalFeaturesInfo = Map(1 -> 2, 6 -> 4)
     val featuresSubsetStrategy = "auto"
-    val bestParams = gridSearchRandomForestClassifier(trainSet, valSet,
+    val bestParams = gridSearchRFClassifier(trainSet, valSet,
       categoricalFeaturesInfo = categoricalFeaturesInfo, numTreesGrid = Array(50, 100),
       impurityGrid = Array("entropy", "gini"), maxDepthGrid = Array(5, 10), maxBinsGrid = Array(50, 100))
 
@@ -46,8 +46,5 @@ object RandomForestClassificationGridSolution {
     println(s"\t Accuracy: $accuracyTest %")
 
   }
-
-
-
 
 }
