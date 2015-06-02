@@ -34,11 +34,11 @@
     "outputs" : [ {
       "name" : "stdout",
       "output_type" : "stream",
-      "text" : "sc: org.apache.spark.SparkContext = org.apache.spark.SparkContext@c7206a0\n"
+      "text" : "sc: org.apache.spark.SparkContext = org.apache.spark.SparkContext@6f2dd62b\n"
     }, {
       "metadata" : { },
       "data" : {
-        "text/html" : "org.apache.spark.SparkContext@c7206a0"
+        "text/html" : "org.apache.spark.SparkContext@6f2dd62b"
       },
       "output_type" : "execute_result",
       "execution_count" : 2
@@ -54,18 +54,18 @@
       "collapsed" : false
     },
     "cell_type" : "code",
-    "source" : "import org.apache.spark.rdd.RDD\nimport org.apache.spark.mllib.linalg.Vectors\nimport org.apache.spark.mllib.linalg.Matrix\nimport org.apache.spark.mllib.regression.LabeledPoint\nimport org.apache.spark.mllib.tree.RandomForest\nimport org.apache.spark.mllib.tree.model.RandomForestModel\nimport org.apache.spark.mllib.evaluation.MulticlassMetrics",
+    "source" : "import org.apache.spark.rdd.RDD\nimport org.apache.spark.mllib.linalg.Vectors\nimport org.apache.spark.mllib.regression.LabeledPoint\nimport org.apache.spark.mllib.tree.RandomForest\nimport org.apache.spark.mllib.tree.model.RandomForestModel\nimport org.apache.spark.mllib.evaluation.MulticlassMetrics",
     "outputs" : [ {
       "name" : "stdout",
       "output_type" : "stream",
-      "text" : "import org.apache.spark.rdd.RDD\nimport org.apache.spark.mllib.linalg.Vectors\nimport org.apache.spark.mllib.linalg.Matrix\nimport org.apache.spark.mllib.regression.LabeledPoint\nimport org.apache.spark.mllib.tree.RandomForest\nimport org.apache.spark.mllib.tree.model.RandomForestModel\nimport org.apache.spark.mllib.evaluation.MulticlassMetrics\n"
+      "text" : "import org.apache.spark.rdd.RDD\nimport org.apache.spark.mllib.linalg.Vectors\nimport org.apache.spark.mllib.regression.LabeledPoint\nimport org.apache.spark.mllib.tree.RandomForest\nimport org.apache.spark.mllib.tree.model.RandomForestModel\nimport org.apache.spark.mllib.evaluation.MulticlassMetrics\n"
     }, {
       "metadata" : { },
       "data" : {
         "text/html" : ""
       },
       "output_type" : "execute_result",
-      "execution_count" : 3
+      "execution_count" : 4
     } ]
   }, {
     "metadata" : { },
@@ -82,35 +82,11 @@
       "collapsed" : false
     },
     "cell_type" : "code",
-    "source" : "def featureEngineering(data : RDD[String]): RDD[LabeledPoint] = {\n\n  data.map(line => {\n\n    val values = line.replaceAll(\"\\\"\",\"\").split('$')\n\n    val label = values(1).toDouble\n\n    val pClass = values(0).toDouble\n    val sex = values(3) match {\n      case \"male\" => 0d\n      case \"female\" => 1d\n    }\n    val age = values(4) match {\n      case \"NA\" => 28d\n      case l => l.toDouble\n    }\n    val sibsp = values(5).toDouble\n    val parch = values(6).toDouble\n    val fair = values(8) match {\n      case \"NA\" => 14.45\n      case l => l.toDouble\n    }\n    val embarked = values(10) match {\n      case \"\" => 0d\n      case \"C\" => 1d\n      case \"Q\" => 2d\n      case \"S\" => 3d\n    }\n\n    val cleanedData = Array(pClass, sex, age, sibsp, parch, fair, embarked)\n\n    LabeledPoint(label, Vectors.dense(cleanedData))\n  })\n\n}",
+    "source" : "def featureEngineering(data : RDD[String]): RDD[LabeledPoint] = {\n  data.map(line => {\n\n    val values = line.replaceAll(\"\\\"\",\"\").split('$')\n\n    val label = values(1).toDouble\n\n    val pClass = values(0).toDouble\n    val sex = values(3) match {\n      case \"male\" => 0d\n      case \"female\" => 1d\n    }\n    val age = values(4) match {\n      case \"NA\" => 28d\n      case l => l.toDouble\n    }\n    val sibsp = values(5).toDouble\n    val parch = values(6).toDouble\n    val fair = values(8) match {\n      case \"NA\" => 14.45\n      case l => l.toDouble\n    }\n    val embarked = values(10) match {\n      case \"\" => 0d\n      case \"C\" => 1d\n      case \"Q\" => 2d\n      case \"S\" => 3d\n    }\n\n    val cleanedData = Array(pClass, sex, age, sibsp, parch, fair, embarked)\n\n    LabeledPoint(label, Vectors.dense(cleanedData))\n  })\n}",
     "outputs" : [ {
       "name" : "stdout",
       "output_type" : "stream",
       "text" : "featureEngineering: (data: org.apache.spark.rdd.RDD[String])org.apache.spark.rdd.RDD[org.apache.spark.mllib.regression.LabeledPoint]\n"
-    }, {
-      "metadata" : { },
-      "data" : {
-        "text/html" : ""
-      },
-      "output_type" : "execute_result",
-      "execution_count" : 4
-    } ]
-  }, {
-    "metadata" : { },
-    "cell_type" : "markdown",
-    "source" : "####The extract header function"
-  }, {
-    "metadata" : {
-      "trusted" : true,
-      "input_collapsed" : false,
-      "collapsed" : false
-    },
-    "cell_type" : "code",
-    "source" : "/**\n * Extract header of a dataset\n * @param rdd A RDD with a header inside\n * @return A tuple2. First element of the tuple is the header. Second element is the data.\n */\ndef extractHeader(rdd: RDD[String]): (String, RDD[String]) = {\n\n  // Take the first line (csv schema)\n  val schema = rdd.first()\n\n  // Remove first line from first partition only\n  (schema, rdd.mapPartitionsWithIndex {\n    case (0, l) => l.drop(1)\n    case (_, l) => l\n  })\n}",
-    "outputs" : [ {
-      "name" : "stdout",
-      "output_type" : "stream",
-      "text" : "extractHeader: (rdd: org.apache.spark.rdd.RDD[String])(String, org.apache.spark.rdd.RDD[String])\n"
     }, {
       "metadata" : { },
       "data" : {
@@ -122,7 +98,7 @@
   }, {
     "metadata" : { },
     "cell_type" : "markdown",
-    "source" : "####The getMetricsRandomForest function"
+    "source" : "####The accuracyRandomForest function"
   }, {
     "metadata" : {
       "trusted" : true,
@@ -130,11 +106,11 @@
       "collapsed" : false
     },
     "cell_type" : "code",
-    "source" : "/**\n *\n * @param model A RandomForestModel from the method RandomForest.trainClassifier()\n * @param data the data (a RDD[LabeledPoint])\n * @return A tuple giving the accuracy and the confusion matrix\n */\ndef getMetricsRandomForest(model: RandomForestModel, data: RDD[LabeledPoint]): (Double, Matrix) = {\n\n  val predictionsAndLabels = data.map(l => (model.predict(l.features), l.label))\n\n  val metrics: MulticlassMetrics = new MulticlassMetrics(predictionsAndLabels)\n\n  val accuracy = 100d * metrics.precision\n  val confusion = metrics.confusionMatrix\n\n  (accuracy, confusion)\n}",
+    "source" : "/**\n *\n * @param model A RandomForestModel from the method RandomForest.trainClassifier()\n * @param data the data (a RDD[LabeledPoint])\n * @return A tuple giving the accuracy and the confusion matrix\n */\ndef accuracyRandomForest(model: RandomForestModel, data: RDD[LabeledPoint]): Double = {\n\n  val predictionsAndLabels = data.map(l => (model.predict(l.features), l.label))\n\n  val metrics: MulticlassMetrics = new MulticlassMetrics(predictionsAndLabels)\n\n  val accuracy = 100d * metrics.precision\n\n  accuracy\n}",
     "outputs" : [ {
       "name" : "stdout",
       "output_type" : "stream",
-      "text" : "getMetricsRandomForest: (model: org.apache.spark.mllib.tree.model.RandomForestModel, data: org.apache.spark.rdd.RDD[org.apache.spark.mllib.regression.LabeledPoint])(Double, org.apache.spark.mllib.linalg.Matrix)\n"
+      "text" : "accuracyRandomForest: (model: org.apache.spark.mllib.tree.model.RandomForestModel, data: org.apache.spark.rdd.RDD[org.apache.spark.mllib.regression.LabeledPoint])Double\n"
     }, {
       "metadata" : { },
       "data" : {
@@ -142,30 +118,6 @@
       },
       "output_type" : "execute_result",
       "execution_count" : 6
-    } ]
-  }, {
-    "metadata" : { },
-    "cell_type" : "markdown",
-    "source" : "####The randomForestTrainClassifier function"
-  }, {
-    "metadata" : {
-      "trusted" : true,
-      "input_collapsed" : false,
-      "collapsed" : false
-    },
-    "cell_type" : "code",
-    "source" : "/**\n * Train a Random Forest Classifier\n * @param data: RDD[LabeledPoint] - The training set\n * @param categoricalFeaturesInfo: A Map indicating which features are categorical and how many categories they contain\n * @param numTrees: The number of trees to train\n * @param featuresSubsetStrategy: Strategy to select a subset of the features for splitting (use \"auto\")\n * @param impurity: The impurity measure to select the best feature for splitting (\"entropy\" or \"gini\")\n * @param maxDepth: The maximum depth of each tree\n * @param maxBins: The maximum number of leaves for each tree\n * @return A RandomForestClassifier Model, usable to predict new data\n */\ndef randomForestTrainClassifier(categoricalFeaturesInfo: Map[Int, Int] = Map[Int, Int](),\n                               numTrees: Int = 10,\n                               featuresSubsetStrategy: String = \"auto\",\n                               impurity: String = \"entropy\",\n                               maxDepth: Int = 2,\n                               maxBins: Int = 12)(data: RDD[LabeledPoint]) : RandomForestModel = {\n  RandomForest.trainClassifier(data, 2, categoricalFeaturesInfo, numTrees, featuresSubsetStrategy, impurity, maxDepth, maxBins)\n}",
-    "outputs" : [ {
-      "name" : "stdout",
-      "output_type" : "stream",
-      "text" : "randomForestTrainClassifier: (categoricalFeaturesInfo: Map[Int,Int], numTrees: Int, featuresSubsetStrategy: String, impurity: String, maxDepth: Int, maxBins: Int)(data: org.apache.spark.rdd.RDD[org.apache.spark.mllib.regression.LabeledPoint])org.apache.spark.mllib.tree.model.RandomForestModel\n"
-    }, {
-      "metadata" : { },
-      "data" : {
-        "text/html" : ""
-      },
-      "output_type" : "execute_result",
-      "execution_count" : 7
     } ]
   }, {
     "metadata" : { },
@@ -183,19 +135,6 @@
     },
     "cell_type" : "code",
     "source" : "// TODO : read file ./data/data_titanic.csv",
-    "outputs" : [ ]
-  }, {
-    "metadata" : { },
-    "cell_type" : "markdown",
-    "source" : "####Parsing Data"
-  }, {
-    "metadata" : {
-      "trusted" : true,
-      "input_collapsed" : false,
-      "collapsed" : true
-    },
-    "cell_type" : "code",
-    "source" : "// TODO : use extracHeader method to get an RDD without header",
     "outputs" : [ ]
   }, {
     "metadata" : { },
@@ -221,7 +160,7 @@
       "collapsed" : true
     },
     "cell_type" : "code",
-    "source" : "// TODO : split the cleaned data in a train and test set (proportions 0.75, 0.25) using the 'randomSplit' method",
+    "source" : "// TODO : split the cleaned data in a train and test set (proportions 0.75, 0.25) using the 'randomSplit' method on the initial RDD",
     "outputs" : [ ]
   }, {
     "metadata" : { },
@@ -238,18 +177,18 @@
       "collapsed" : false
     },
     "cell_type" : "code",
-    "source" : "val categoricalFeaturesInfo = Map(1 -> 2, 6 -> 4)",
+    "source" : "// You may change the parameters as you wish\nval numClass = 2\nval categoricalFeaturesInfo = Map(1 -> 2, 6 -> 4) // Do not change this variable\nval numTrees = 50\nval featureSubsetStrategy = \"auto\"\nval impurity = \"entropy\"\nval maxDepth = 2\nval maxBins = 12",
     "outputs" : [ {
       "name" : "stdout",
       "output_type" : "stream",
-      "text" : "categoricalFeaturesInfo: scala.collection.immutable.Map[Int,Int] = Map(1 -> 2, 6 -> 4)\n"
+      "text" : "numClass: Int = 2\ncategoricalFeaturesInfo: scala.collection.immutable.Map[Int,Int] = Map(1 -> 2, 6 -> 4)\nnumTrees: Int = 50\nfeatureSubsetStrategy: String = auto\nimpurity: String = entropy\nmaxDepth: Int = 2\nmaxBins: Int = 12\n"
     }, {
       "metadata" : { },
       "data" : {
-        "text/html" : "<div class=\"container-fluid\"><div><div class=\"col-md-12\"><div>\n    <script data-this=\"{&quot;dataId&quot;:&quot;anondd8d120ccf242d9e7d51c8a874fd5f4e&quot;,&quot;dataInit&quot;:[{&quot;Value&quot;:&quot;Value&quot;,&quot;key&quot;:1,&quot;values&quot;:&quot;List(1, 2)&quot;,&quot;headers&quot;:&quot;List(Key, Value)&quot;,&quot;value&quot;:2,&quot;Key&quot;:&quot;Key&quot;},{&quot;Value&quot;:&quot;Value&quot;,&quot;key&quot;:6,&quot;values&quot;:&quot;List(6, 4)&quot;,&quot;headers&quot;:&quot;List(Key, Value)&quot;,&quot;value&quot;:4,&quot;Key&quot;:&quot;Key&quot;}],&quot;genId&quot;:&quot;1792636663&quot;}\" type=\"text/x-scoped-javascript\">/*<![CDATA[*/req(['../javascripts/notebook/playground','../javascripts/notebook/magic/tableChart'], \n      function(playground, _magictableChart) {\n        // data ==> data-this (in observable.js's scopedEval) ==> this in JS => { dataId, dataInit, ... }\n        // this ==> scope (in observable.js's scopedEval) ==> this.parentElement ==> div.container below (toHtml)\n\n        playground.call(data,\n                        this\n                        ,\n                        {\n    \"f\": _magictableChart,\n    \"o\": {\"headers\":[\"key\",\"value\",\"Key\",\"Value\",\"headers\",\"values\"],\"nrow\":2,\"shown\":25,\"width\":600,\"height\":400}\n  }\n  \n                        \n                        \n                      );\n      }\n    );/*]]>*/</script></div></div></div></div>"
+        "text/html" : "12"
       },
       "output_type" : "execute_result",
-      "execution_count" : 12
+      "execution_count" : 8
     } ]
   }, {
     "metadata" : { },
@@ -262,7 +201,7 @@
       "collapsed" : true
     },
     "cell_type" : "code",
-    "source" : "// TODO : use the decisionTreeTrainClassifier method to train a Decision Tree (Use the parameters of your choice)",
+    "source" : "// TODO : Train a RandomForest model on the training set (Use the parameters of your choice)",
     "outputs" : [ ]
   }, {
     "metadata" : { },
@@ -275,20 +214,7 @@
       "collapsed" : true
     },
     "cell_type" : "code",
-    "source" : "// TODO : get the accuracy and confusion matrix for the prediction on the test set using the getMetricsDecisionTree method\n// TODO : do the same for the train set for comparison",
-    "outputs" : [ ]
-  }, {
-    "metadata" : { },
-    "cell_type" : "markdown",
-    "source" : "####Print the results"
-  }, {
-    "metadata" : {
-      "trusted" : true,
-      "input_collapsed" : false,
-      "collapsed" : true
-    },
-    "cell_type" : "code",
-    "source" : "",
+    "source" : "// TODO : get the precision for the prediction on the test set \n// You can use the accuracyRandomForest method",
     "outputs" : [ ]
   } ],
   "nbformat" : 4

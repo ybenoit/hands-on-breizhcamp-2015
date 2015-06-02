@@ -4,6 +4,7 @@ package com.xebia.spark.randomForestClassification
 import com.xebia.spark.randomForestClassification.features.Engineering
 import org.apache.spark.mllib.tree.RandomForest
 import com.xebia.spark.randomForestClassification.tools.Utilities._
+import org.apache.spark.mllib.tree.model.RandomForestModel
 import org.apache.spark.{SparkContext, SparkConf}
 
 
@@ -34,7 +35,7 @@ object RandomForestClassificationGridSolution {
     // -------- Training the model
     val dataTrain = sc.union(trainSet, valSet)
     val (numTrees, impurity, maxDepth, maxBins) = bestParams
-    val model = RandomForest.trainClassifier(dataTrain, 2, categoricalFeaturesInfo, numTrees, featuresSubsetStrategy, impurity, maxDepth, maxBins)
+    val model: RandomForestModel = RandomForest.trainClassifier(dataTrain, 2, categoricalFeaturesInfo, numTrees, featuresSubsetStrategy, impurity, maxDepth, maxBins)
 
     // Prediction & Evaluation
     val accuracyTest = accuracyRandomForest(model, testSet)

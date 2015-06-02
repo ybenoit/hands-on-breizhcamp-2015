@@ -48,7 +48,4 @@ object RandomForestClassificationSolution {
 
   }
 
-
-
-
 }

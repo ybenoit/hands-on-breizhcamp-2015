@@ -4,7 +4,7 @@
 		module="hands-on-mix-it-2015$sbt_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20150602104533"
+		publication="20150602114516"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>

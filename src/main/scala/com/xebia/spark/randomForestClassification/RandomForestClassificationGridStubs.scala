@@ -25,6 +25,7 @@ object RandomForestClassificationGridStubs {
     // Modelling
     // -------- Tuning parameters
     val categoricalFeaturesInfo = Map(1 -> 2, 6 -> 4)
+    val featuresSubsetStrategy = "auto"
     // TODO: Implement a grid search to search for the best parameters, using the train and validation sets
     // (You can use the given gridSearchRandomForestClassifier method in tools/Utilities)
 

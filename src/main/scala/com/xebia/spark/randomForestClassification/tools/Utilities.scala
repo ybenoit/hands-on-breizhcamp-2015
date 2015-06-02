@@ -1,7 +1,6 @@
 package com.xebia.spark.randomForestClassification.tools
 
 import org.apache.spark.mllib.evaluation.MulticlassMetrics
-import org.apache.spark.mllib.linalg.Matrix
 import org.apache.spark.mllib.regression.LabeledPoint
 import org.apache.spark.mllib.tree.RandomForest
 import org.apache.spark.mllib.tree.model.RandomForestModel
@@ -11,7 +10,7 @@ import org.apache.spark.rdd.RDD
 object Utilities {
 
   /**
-   *
+   * Calculate the accuracy of the given model
    * @param model A RandomForestModel from the method RandomForest.trainClassifier()
    * @param data the data (a RDD[LabeledPoint])
    * @return A tuple giving the accuracy and the confusion matrix
@@ -41,13 +40,13 @@ object Utilities {
    * @return The best parameters found, in a tuple.
    */
   def gridSearchRFClassifier(trainSet: RDD[LabeledPoint],
-                                       valSet: RDD[LabeledPoint],
-                                       categoricalFeaturesInfo: Map[Int, Int] = Map[Int, Int](),
-                                       numTreesGrid: Array[Int] = Array(10),
-                                       featuresSubsetStrategy: String = "auto",
-                                       impurityGrid: Array[String] = Array("entropy"),
-                                       maxDepthGrid: Array[Int] = Array(2),
-                                       maxBinsGrid: Array[Int] = Array(4)) = {
+                             valSet: RDD[LabeledPoint],
+                             categoricalFeaturesInfo: Map[Int, Int] = Map[Int, Int](),
+                             numTreesGrid: Array[Int] = Array(10),
+                             featuresSubsetStrategy: String = "auto",
+                             impurityGrid: Array[String] = Array("entropy"),
+                             maxDepthGrid: Array[Int] = Array(2),
+                             maxBinsGrid: Array[Int] = Array(4)) = {
 
     val gridSearch =
 

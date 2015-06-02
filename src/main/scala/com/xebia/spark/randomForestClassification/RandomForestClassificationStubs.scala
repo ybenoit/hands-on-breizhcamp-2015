@@ -3,7 +3,8 @@ package com.xebia.spark.randomForestClassification
 
 import com.xebia.spark.randomForestClassification.features.Engineering
 import com.xebia.spark.randomForestClassification.tools.Utilities._
-import com.xebia.spark.randomForestClassification.modelling.TreeModelling.randomForestTrainClassifier
+import org.apache.spark.mllib.tree.RandomForest
+import org.apache.spark.mllib.tree.model.RandomForestModel
 import org.apache.spark.{SparkContext, SparkConf}
 
 

@@ -2,13 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e30b9efb-28e5-4d95-823d-e68e7208177a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/xebia/spark/decisionTreeClassification/DecisionTreeClassificationStubs.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/xebia/spark/decisionTreeClassification/DecisionTreeClassificationStubs.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/xebia/spark/decisionTreeClassification/features/Engineering.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/xebia/spark/decisionTreeClassification/features/Engineering.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/xebia/spark/kMeansClustering/KMeansClusteringSolution.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/xebia/spark/kMeansClustering/KMeansClusteringSolution.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/xebia/spark/kMeansClustering/tools/Utilities.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/xebia/spark/kMeansClustering/tools/Utilities.scala" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/notebook/conf/notebooks/hands-on-breizhcamp-2015/2-DecisionTree/Untitled1.snb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/xebia/spark/decisionTreeClassification/DecisionTreeClassificationSolution$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/xebia/spark/decisionTreeClassification/DecisionTreeClassificationSolution$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/xebia/spark/decisionTreeClassification/DecisionTreeClassificationStubs$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/xebia/spark/decisionTreeClassification/DecisionTreeClassificationStubs$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/xebia/spark/kMeansClustering/KMeansClusteringSolution$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/xebia/spark/kMeansClustering/KMeansClusteringSolution$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/xebia/spark/randomForestClassification/RandomForestClassificationGridSolution$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/xebia/spark/randomForestClassification/RandomForestClassificationGridSolution$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/xebia/spark/randomForestClassification/RandomForestClassificationStubs$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/xebia/spark/randomForestClassification/RandomForestClassificationStubs$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/xebia/spark/randomForestClassification/tools/Utilities$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/xebia/spark/randomForestClassification/tools/Utilities$$anonfun$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/xebia/spark/randomForestClassification/tools/Utilities$$anonfun$2$$anonfun$apply$1$$anonfun$apply$2$$anonfun$apply$3.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/xebia/spark/randomForestClassification/tools/Utilities$$anonfun$2$$anonfun$apply$1$$anonfun$apply$2$$anonfun$apply$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/xebia/spark/randomForestClassification/tools/Utilities$$anonfun$2$$anonfun$apply$1$$anonfun$apply$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/xebia/spark/randomForestClassification/tools/Utilities$$anonfun$2$$anonfun$apply$1$$anonfun$apply$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/xebia/spark/randomForestClassification/tools/Utilities$$anonfun$2$$anonfun$apply$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/xebia/spark/randomForestClassification/tools/Utilities$$anonfun$2$$anonfun$apply$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/xebia/spark/randomForestClassification/tools/Utilities$$anonfun$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/xebia/spark/randomForestClassification/tools/Utilities$$anonfun$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/xebia/spark/randomForestClassification/tools/Utilities$$anonfun$3.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/xebia/spark/randomForestClassification/tools/Utilities$$anonfun$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/xebia/spark/kMeansClustering/tools/Utilities$$anonfun$clustersInfo$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/xebia/spark/kMeansClustering/tools/Utilities$$anonfun$clustersInfo$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/xebia/spark/kMeansClustering/tools/Utilities$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/xebia/spark/kMeansClustering/tools/Utilities$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/xebia/spark/randomForestClassification/tools/Utilities$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/xebia/spark/randomForestClassification/tools/Utilities$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/xebia/spark/randomForestClassification/tools/Utilities.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/xebia/spark/randomForestClassification/tools/Utilities.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/xebia/spark/decisionTreeClassification/DecisionTreeClassificationSolution.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/xebia/spark/decisionTreeClassification/DecisionTreeClassificationSolution.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notebook/conf/notebooks/hands-on-breizhcamp-2015/2-DecisionTree/DecisionTreeClassificationSolution.snb" afterPath="$PROJECT_DIR$/notebook/conf/notebooks/hands-on-breizhcamp-2015/2-DecisionTree/DecisionTreeClassificationSolution.snb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notebook/conf/notebooks/hands-on-breizhcamp-2015/2-DecisionTree/DecisionTreeClassificationStubs.snb" afterPath="$PROJECT_DIR$/notebook/conf/notebooks/hands-on-breizhcamp-2015/2-DecisionTree/DecisionTreeClassificationStubs.snb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/xebia/spark/randomForestClassification/features/Engineering.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/xebia/spark/randomForestClassification/features/Engineering.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notebook/RUNNING_PID" afterPath="$PROJECT_DIR$/notebook/RUNNING_PID" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/xebia/spark/randomForestClassification/RandomForestClassificationGridSolution.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/xebia/spark/randomForestClassification/RandomForestClassificationGridSolution.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notebook/conf/notebooks/hands-on-breizhcamp-2015/4-RandomForestGrid/RandomForestClassificationGridSolution.snb" afterPath="$PROJECT_DIR$/notebook/conf/notebooks/hands-on-breizhcamp-2015/4-RandomForestGrid/RandomForestClassificationGridSolution.snb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/xebia/spark/randomForestClassification/RandomForestClassificationGridStubs.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/xebia/spark/randomForestClassification/RandomForestClassificationGridStubs.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notebook/conf/notebooks/hands-on-breizhcamp-2015/4-RandomForestGrid/RandomForestClassificationGridStubs.snb" afterPath="$PROJECT_DIR$/notebook/conf/notebooks/hands-on-breizhcamp-2015/4-RandomForestGrid/RandomForestClassificationGridStubs.snb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/xebia/spark/randomForestClassification/RandomForestClassificationSolution.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/xebia/spark/randomForestClassification/RandomForestClassificationSolution.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notebook/conf/notebooks/hands-on-breizhcamp-2015/3-RandomForest/RandomForestClassificationSolution.snb" afterPath="$PROJECT_DIR$/notebook/conf/notebooks/hands-on-breizhcamp-2015/3-RandomForest/RandomForestClassificationSolution.snb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/xebia/spark/randomForestClassification/RandomForestClassificationStubs.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/xebia/spark/randomForestClassification/RandomForestClassificationStubs.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notebook/conf/notebooks/hands-on-breizhcamp-2015/3-RandomForest/RandomForestClassificationStubs.snb" afterPath="$PROJECT_DIR$/notebook/conf/notebooks/hands-on-breizhcamp-2015/3-RandomForest/RandomForestClassificationStubs.snb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/xebia/spark/randomForestClassification/tools/Utilities.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/xebia/spark/randomForestClassification/tools/Utilities.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notebook/logs/application.log" afterPath="$PROJECT_DIR$/notebook/logs/application.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notebook/data/data_titanic.csv" afterPath="$PROJECT_DIR$/notebook/data/data_titanic.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prez/css/theme/devoxx.css" afterPath="$PROJECT_DIR$/prez/css/theme/devoxx.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/hands-on-mix-it-2015-hands-on-mix-it-2015$sbt_2.11-default.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/hands-on-mix-it-2015-hands-on-mix-it-2015$sbt_2.11-default.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/hands-on-mix-it-2015-hands-on-mix-it-2015$sources_2.11-default.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/hands-on-mix-it-2015-hands-on-mix-it-2015$sources_2.11-default.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/hands-on-mix-it-2015-hands-on-mix-it-2015$sources_javadoc_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/hands-on-mix-it-2015-hands-on-mix-it-2015$sources_javadoc_2.11-compile-internal.xml" />
@@ -23,7 +47,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/hands-on-mix-it-2015-hands-on-mix-it-2015$sources_javadoc_2.11-sources.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/hands-on-mix-it-2015-hands-on-mix-it-2015$sources_javadoc_2.11-sources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/hands-on-mix-it-2015-hands-on-mix-it-2015$sources_javadoc_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/hands-on-mix-it-2015-hands-on-mix-it-2015$sources_javadoc_2.11-test-internal.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/hands-on-mix-it-2015-hands-on-mix-it-2015$sources_javadoc_2.11-test.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/hands-on-mix-it-2015-hands-on-mix-it-2015$sources_javadoc_2.11-test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prez/index.html" afterPath="$PROJECT_DIR$/prez/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update-classifiers/$global/out" afterPath="$PROJECT_DIR$/target/streams/$global/update-classifiers/$global/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update-sbt-classifiers/$global/out" afterPath="$PROJECT_DIR$/target/streams/$global/update-sbt-classifiers/$global/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/hands-on-mix-it-2015/hands-on-mix-it-2015$sbt_2.11/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/hands-on-mix-it-2015/hands-on-mix-it-2015$sbt_2.11/1.0/resolved.xml.properties" />
@@ -60,33 +83,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Engineering.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/xebia/spark/decisionTreeClassification/features/Engineering.scala">
+      <file leaf-file-name="Utilities.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/xebia/spark/randomForestClassification/tools/Utilities.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.90339893" vertical-offset="1" max-vertical-offset="1311">
-              <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="1200">
+              <caret line="54" column="36" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
               <folding>
-                <element signature="e#61#105#0" expanded="true" />
+                <element signature="e#58#116#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Utilities.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/xebia/spark/decisionTreeClassification/tools/Utilities.scala">
+      <file leaf-file-name="RandomForestClassificationGridSolution.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/xebia/spark/randomForestClassification/RandomForestClassificationGridSolution.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
-              <caret line="2" column="58" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="58" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DecisionTreeClassificationSolution.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/xebia/spark/decisionTreeClassification/DecisionTreeClassificationSolution.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1064">
-              <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="118" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
+              <caret line="46" column="44" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
               <folding>
                 <element signature="e#53#123#0" expanded="true" />
               </folding>
@@ -94,11 +107,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DecisionTreeClassificationStubs.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/xebia/spark/decisionTreeClassification/DecisionTreeClassificationStubs.scala">
+      <file leaf-file-name="RandomForestClassificationGridStubs.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/xebia/spark/randomForestClassification/RandomForestClassificationGridStubs.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1140">
-              <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.80046403" vertical-offset="0" max-vertical-offset="862">
+              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding>
                 <element signature="e#53#123#0" expanded="true" />
               </folding>
@@ -119,20 +132,20 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/xebia/spark/kMeansClustering/features/Engineering.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/xebia/spark/kMeansClustering/KMeansClusteringStubs.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/xebia/spark/decisionTreeClassification/modelling/TreeModelling.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/xebia/spark/randomForestClassification/features/Engineering.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/xebia/spark/randomForestClassification/modelling/TreeModelling.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/xebia/spark/decisionTreeClassification/DecisionTreeClassificationSolution.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/xebia/spark/decisionTreeClassification/tools/Utilities.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/xebia/spark/randomForestClassification/RandomForestClassificationSolution.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/xebia/spark/randomForestClassification/modelling/TreeModellingSolution.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/xebia/spark/randomForestClassification/RandomForestClassificationStubs.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/xebia/spark/randomForestClassification/RandomForestClassificationGridStubs.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/xebia/spark/randomForestClassification/RandomForestClassificationGridSolution.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/xebia/spark/randomForestClassification/tools/Utilities.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/xebia/spark/kMeansClustering/tools/Utilities.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/xebia/spark/kMeansClustering/KMeansClusteringSolution.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/xebia/spark/decisionTreeClassification/features/Engineering.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/xebia/spark/decisionTreeClassification/DecisionTreeClassificationStubs.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/xebia/spark/randomForestClassification/RandomForestClassificationStubs.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/xebia/spark/randomForestClassification/features/Engineering.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/xebia/spark/decisionTreeClassification/DecisionTreeClassificationSolution.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/xebia/spark/randomForestClassification/RandomForestClassificationSolution.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/xebia/spark/randomForestClassification/RandomForestClassificationGridSolution.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/xebia/spark/randomForestClassification/tools/Utilities.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/xebia/spark/randomForestClassification/RandomForestClassificationGridStubs.scala" />
       </list>
     </option>
   </component>
@@ -165,6 +178,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -461,8 +476,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -479,7 +492,7 @@
     <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="false" />
   </component>
-  <component name="RunManager" selected="Application.RandomForestClassificationSolution">
+  <component name="RunManager" selected="Application.DecisionTreeClassificationSolution">
     <configuration default="false" name="KMeansClusteringSolution" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -783,9 +796,9 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.RandomForestClassificationSolution" />
-        <item index="1" class="java.lang.String" itemvalue="Application.RandomForestClassificationGridSolution" />
-        <item index="2" class="java.lang.String" itemvalue="Application.DecisionTreeClassificationSolution" />
+        <item index="0" class="java.lang.String" itemvalue="Application.DecisionTreeClassificationSolution" />
+        <item index="1" class="java.lang.String" itemvalue="Application.RandomForestClassificationSolution" />
+        <item index="2" class="java.lang.String" itemvalue="Application.RandomForestClassificationGridSolution" />
         <item index="3" class="java.lang.String" itemvalue="Application.KMeansClusteringSolution" />
       </list>
     </recent_temporary>
@@ -843,18 +856,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-586" y="-1417" width="2560" height="1417" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.55764884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19924529" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3995451" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32981133" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32949126" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -862,14 +877,12 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1291733" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32830188" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32830188" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3995451" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32981133" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -900,7 +913,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/xebia/spark/randomForestClassification/tools/Utilities.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/xebia/spark/decisionTreeClassification/features/Engineering.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -908,11 +921,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/xebia/spark/decisionTreeClassification/tools/Utilities.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="510">
+          <caret line="2" column="58" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/xebia/spark/decisionTreeClassification/DecisionTreeClassificationSolution.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="840">
+          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="118" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/xebia/spark/decisionTreeClassification/DecisionTreeClassificationStubs.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="855">
+          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/xebia/spark/randomForestClassification/tools/Utilities.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#58#116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/xebia/spark/kMeansClustering/KMeansClusteringStubs.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="510">
           <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -921,7 +967,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="585">
           <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
           <folding>
-            <element signature="e#42#121#0" expanded="true" />
+            <element signature="e#42#121#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -930,7 +976,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="615">
           <caret line="27" column="63" selection-start-line="27" selection-start-column="63" selection-end-line="27" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -954,7 +999,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="840">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#53#123#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -962,7 +1009,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="750" max-vertical-offset="1215">
           <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#58#116#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -971,7 +1020,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="585">
           <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding>
-            <element signature="e#42#121#0" expanded="true" />
+            <element signature="e#42#121#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1004,9 +1053,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="855">
           <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-          <folding>
-            <element signature="e#61#105#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1014,7 +1061,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#53#123#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1043,7 +1092,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#58#116#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1051,7 +1102,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="885">
           <caret line="23" column="98" selection-start-line="23" selection-start-column="98" selection-end-line="23" selection-end-column="98" />
-          <folding />
+          <folding>
+            <element signature="e#53#123#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1083,50 +1136,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/xebia/spark/randomForestClassification/features/Engineering.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12195122" vertical-offset="0" max-vertical-offset="861">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/xebia/spark/randomForestClassification/RandomForestClassificationStubs.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65562916" vertical-offset="0" max-vertical-offset="755">
-          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="38" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/xebia/spark/randomForestClassification/RandomForestClassificationSolution.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.70198673" vertical-offset="145" max-vertical-offset="900">
-          <caret line="45" column="44" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/xebia/spark/randomForestClassification/RandomForestClassificationGridStubs.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.821192" vertical-offset="10" max-vertical-offset="765">
-          <caret line="42" column="3" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/xebia/spark/randomForestClassification/RandomForestClassificationGridSolution.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2078522" vertical-offset="0" max-vertical-offset="1299">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/xebia/spark/randomForestClassification/tools/Utilities.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44495767" vertical-offset="0" max-vertical-offset="1299">
-          <caret line="39" column="39" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/xebia/spark/kMeansClustering/tools/Utilities.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
@@ -1140,7 +1149,7 @@
         <state vertical-scroll-proportion="0.4095458" vertical-offset="0" max-vertical-offset="1299">
           <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
-            <element signature="e#42#121#0" expanded="true" />
+            <element signature="e#42#121#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1149,7 +1158,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2886836" vertical-offset="0" max-vertical-offset="1299">
           <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1157,24 +1165,49 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.48498845" vertical-offset="0" max-vertical-offset="1299">
           <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <element signature="e#51#105#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/xebia/spark/decisionTreeClassification/tools/Utilities.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/xebia/spark/decisionTreeClassification/features/Engineering.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
-          <caret line="2" column="58" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="58" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
+          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/xebia/spark/decisionTreeClassification/DecisionTreeClassificationStubs.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1140">
-          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.8587089" vertical-offset="0" max-vertical-offset="821">
+          <caret line="50" column="1" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/xebia/spark/randomForestClassification/features/Engineering.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#61#105#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/xebia/spark/decisionTreeClassification/tools/Utilities.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding>
+            <element signature="e#58#116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/xebia/spark/randomForestClassification/RandomForestClassificationStubs.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6090487" vertical-offset="0" max-vertical-offset="862">
+          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
           <folding>
             <element signature="e#53#123#0" expanded="true" />
           </folding>
@@ -1183,20 +1216,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/xebia/spark/decisionTreeClassification/DecisionTreeClassificationSolution.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1064">
-          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="118" />
+        <state vertical-scroll-proportion="0.6786543" vertical-offset="0" max-vertical-offset="862">
+          <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/xebia/spark/randomForestClassification/RandomForestClassificationSolution.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8352668" vertical-offset="0" max-vertical-offset="862">
+          <caret line="48" column="3" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="3" />
           <folding>
             <element signature="e#53#123#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/xebia/spark/decisionTreeClassification/features/Engineering.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/xebia/spark/randomForestClassification/tools/Utilities.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.90339893" vertical-offset="1" max-vertical-offset="1311">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="1200">
+          <caret line="54" column="36" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
           <folding>
-            <element signature="e#61#105#0" expanded="true" />
+            <element signature="e#58#116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/xebia/spark/randomForestClassification/RandomForestClassificationGridSolution.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
+          <caret line="46" column="44" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
+          <folding>
+            <element signature="e#53#123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/xebia/spark/randomForestClassification/RandomForestClassificationGridStubs.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.80046403" vertical-offset="0" max-vertical-offset="862">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding>
+            <element signature="e#53#123#0" expanded="true" />
           </folding>
         </state>
       </provider>

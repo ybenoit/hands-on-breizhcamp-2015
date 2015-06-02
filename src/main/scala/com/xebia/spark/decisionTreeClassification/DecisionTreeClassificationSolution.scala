@@ -41,10 +41,6 @@ object DecisionTreeClassificationSolution {
     println(s"Results for the test set")
     println(s"\t Accuracy: $accuracyTest %")
 
-
   }
-
-
-
 
 }
