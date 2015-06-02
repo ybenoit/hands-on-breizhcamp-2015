@@ -4,7 +4,7 @@
 		module="hands-on-mix-it-2015$sources_javadoc_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20150529115437"
+		publication="20150602104537"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

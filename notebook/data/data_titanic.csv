@@ -1,4 +1,3 @@
-"pclass"$"survived"$"name"$"sex"$"age"$"sibsp"$"parch"$"ticket"$"fare"$"cabin"$"embarked"$"boat"$"body"$"home.dest"
 "1"$"0"$"Allison, Miss. Helen Loraine"$"female"$2$1$2$"113781"$151.55$"C22 C26"$"S"$""$NA$"Montreal, PQ / Chesterville, ON"
 "1"$"0"$"Allison, Mr. Hudson Joshua Creighton"$"male"$30$1$2$"113781"$151.55$"C22 C26"$"S"$""$135$"Montreal, PQ / Chesterville, ON"
 "1"$"0"$"Allison, Mrs. Hudson J C (Bessie Waldo Daniels)"$"female"$25$1$2$"113781"$151.55$"C22 C26"$"S"$""$NA$"Montreal, PQ / Chesterville, ON"

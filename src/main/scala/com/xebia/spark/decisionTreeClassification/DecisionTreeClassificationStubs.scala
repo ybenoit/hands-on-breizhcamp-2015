@@ -3,6 +3,7 @@ package com.xebia.spark.decisionTreeClassification
 
 import com.xebia.spark.decisionTreeClassification.features.Engineering
 import com.xebia.spark.decisionTreeClassification.tools.Utilities._
+import org.apache.spark.mllib.tree.DecisionTree
 import org.apache.spark.{SparkContext, SparkConf}
 
 
@@ -25,7 +26,11 @@ object DecisionTreeClassificationStubs {
 
     // Modelling
     // -------- Tuning parameters
+    val numClass = 2
     val categoricalFeaturesInfo = Map(1 -> 2, 6 -> 4)
+    val impurity: String = "entropy"
+    val maxDepth: Int = 2
+    val maxBins: Int = 12
 
     // -------- Training the model
     // TODO : Train a DecisionTree model on the training set (Use the parameters of your choice)

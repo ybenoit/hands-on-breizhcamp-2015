@@ -1,8 +1,7 @@
 package com.xebia.spark.kMeansClustering
 
 import com.xebia.spark.kMeansClustering.features.Engineering.featureEngineering
-import com.xebia.spark.kMeansClustering.tools.Utilities
-import com.xebia.spark.kMeansClustering.tools.Utilities._
+import com.xebia.spark.kMeansClustering.tools.Utilities.clustersInfo
 import org.apache.spark.mllib.linalg.Vector
 import org.apache.spark.rdd.RDD
 import org.apache.spark.{SparkConf, SparkContext}
@@ -26,7 +25,7 @@ object KMeansClusteringSolution {
 
     // Inspect centroid of each cluster
     println("Clusters description")
-    Utilities.clustersInfo(model)
+    clustersInfo(model)
 
   }
 

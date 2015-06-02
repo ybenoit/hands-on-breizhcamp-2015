@@ -6,7 +6,7 @@
 [debug] == resolving dependencies for hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0 [compile]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@32378bdc
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1f3e29be
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.6
 [debug] 	local: revision in cache: org.scala-lang#scala-library;2.11.6
 [debug] 	found org.scala-lang#scala-library;2.11.6 in sbt-chain
@@ -15,7 +15,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.spark#spark-core_2.11;1.3.0 [compile->default(compile)]
 [info] Resolving org.apache.spark#spark-core_2.11;1.3.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@75e1b80
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4b436597
 [debug] sbt-chain: module revision found in cache: org.apache.spark#spark-core_2.11;1.3.0
 [debug] 	local: revision in cache: org.apache.spark#spark-core_2.11;1.3.0
 [debug] 	found org.apache.spark#spark-core_2.11;1.3.0 in sbt-chain
@@ -24,7 +24,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.spark#spark-core_2.11;1.3.0 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.twitter#chill_2.11;0.5.0 [compile->default(compile)]
 [info] Resolving com.twitter#chill_2.11;0.5.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@542eec5a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6dbf9583
 [debug] sbt-chain: module revision found in cache: com.twitter#chill_2.11;0.5.0
 [debug] 	local: revision in cache: com.twitter#chill_2.11;0.5.0
 [debug] 	found com.twitter#chill_2.11;0.5.0 in sbt-chain
@@ -33,7 +33,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.twitter#chill_2.11;0.5.0 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.twitter#chill-java;0.5.0 [compile->default(compile)]
 [info] Resolving com.twitter#chill-java;0.5.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7449d884
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1d7d68f9
 [debug] sbt-chain: module revision found in cache: com.twitter#chill-java;0.5.0
 [debug] 	local: revision in cache: com.twitter#chill-java;0.5.0
 [debug] 	found com.twitter#chill-java;0.5.0 in sbt-chain
@@ -42,7 +42,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.twitter#chill-java;0.5.0 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.esotericsoftware.kryo#kryo;2.21 [compile->default(compile)]
 [info] Resolving com.esotericsoftware.kryo#kryo;2.21 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2a5e7326
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1c7b79ab
 [debug] sbt-chain: module revision found in cache: com.esotericsoftware.kryo#kryo;2.21
 [debug] 	local: revision in cache: com.esotericsoftware.kryo#kryo;2.21
 [debug] 	found com.esotericsoftware.kryo#kryo;2.21 in sbt-chain
@@ -51,7 +51,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.esotericsoftware.kryo#kryo;2.21 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.esotericsoftware.reflectasm#reflectasm;1.07 [compile->default(compile)]
 [info] Resolving com.esotericsoftware.reflectasm#reflectasm;1.07 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1bb61143
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@22514f6d
 [debug] sbt-chain: module revision found in cache: com.esotericsoftware.reflectasm#reflectasm;1.07
 [debug] 	local: revision in cache: com.esotericsoftware.reflectasm#reflectasm;1.07
 [debug] 	found com.esotericsoftware.reflectasm#reflectasm;1.07 in sbt-chain
@@ -60,7 +60,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.esotericsoftware.reflectasm#reflectasm;1.07 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.esotericsoftware.minlog#minlog;1.2 [compile->default(compile)]
 [info] Resolving com.esotericsoftware.minlog#minlog;1.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@253dcb02
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2a3a0ed
 [debug] sbt-chain: module revision found in cache: com.esotericsoftware.minlog#minlog;1.2
 [debug] 	local: revision in cache: com.esotericsoftware.minlog#minlog;1.2
 [debug] 	found com.esotericsoftware.minlog#minlog;1.2 in sbt-chain
@@ -69,7 +69,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.esotericsoftware.minlog#minlog;1.2 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.objenesis#objenesis;1.2 [compile->default(compile)]
 [info] Resolving org.objenesis#objenesis;1.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@fa3c4fb
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1c2094c3
 [debug] sbt-chain: module revision found in cache: org.objenesis#objenesis;1.2
 [debug] 	local: revision in cache: org.objenesis#objenesis;1.2
 [debug] 	found org.objenesis#objenesis;1.2 in sbt-chain
@@ -78,7 +78,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.objenesis#objenesis;1.2 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-client;2.2.0 [compile->default(compile)]
 [info] Resolving org.apache.hadoop#hadoop-client;2.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7fe761b7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@220b1039
 [debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-client;2.2.0
 [debug] 	local: revision in cache: org.apache.hadoop#hadoop-client;2.2.0
 [debug] 	found org.apache.hadoop#hadoop-client;2.2.0 in sbt-chain
@@ -87,7 +87,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-client;2.2.0 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-common;2.2.0 [compile->default(compile)]
 [info] Resolving org.apache.hadoop#hadoop-common;2.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@616a20a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@141ad264
 [debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-common;2.2.0
 [debug] 	local: revision in cache: org.apache.hadoop#hadoop-common;2.2.0
 [debug] 	found org.apache.hadoop#hadoop-common;2.2.0 in sbt-chain
@@ -96,7 +96,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-common;2.2.0 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-annotations;2.2.0 [compile->default(compile)]
 [info] Resolving org.apache.hadoop#hadoop-annotations;2.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6f4d04b3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@a39a3df
 [debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-annotations;2.2.0
 [debug] 	local: revision in cache: org.apache.hadoop#hadoop-annotations;2.2.0
 [debug] 	found org.apache.hadoop#hadoop-annotations;2.2.0 in sbt-chain
@@ -105,7 +105,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-annotations;2.2.0 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->commons-cli#commons-cli;1.2 [compile->default(compile)]
 [info] Resolving commons-cli#commons-cli;1.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7057ecc1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@135e1b18
 [debug] sbt-chain: module revision found in cache: commons-cli#commons-cli;1.2
 [debug] 	local: revision in cache: commons-cli#commons-cli;1.2
 [debug] 	found commons-cli#commons-cli;1.2 in sbt-chain
@@ -114,7 +114,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->commons-cli#commons-cli;1.2 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.commons#commons-math;2.1 [compile->default(compile)]
 [info] Resolving org.apache.commons#commons-math;2.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@68fde8fb
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2d8a854a
 [debug] sbt-chain: module revision found in cache: org.apache.commons#commons-math;2.1
 [debug] 	local: revision in cache: org.apache.commons#commons-math;2.1
 [debug] 	found org.apache.commons#commons-math;2.1 in sbt-chain
@@ -123,7 +123,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.commons#commons-math;2.1 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->commons-httpclient#commons-httpclient;3.1 [compile->default(compile)]
 [info] Resolving commons-httpclient#commons-httpclient;3.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@57cd2006
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@59e70fb5
 [debug] sbt-chain: module revision found in cache: commons-httpclient#commons-httpclient;3.1
 [debug] 	local: revision in cache: commons-httpclient#commons-httpclient;3.1
 [debug] 	found commons-httpclient#commons-httpclient;3.1 in sbt-chain
@@ -132,7 +132,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->commons-httpclient#commons-httpclient;3.1 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->commons-logging#commons-logging;1.1.1 [compile->default(compile)]
 [info] Resolving commons-logging#commons-logging;1.1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@48e71cec
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@673c63c6
 [debug] sbt-chain: module revision found in cache: commons-logging#commons-logging;1.1.1
 [debug] 	local: revision in cache: commons-logging#commons-logging;1.1.1
 [debug] 	found commons-logging#commons-logging;1.1.1 in sbt-chain
@@ -141,7 +141,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->commons-logging#commons-logging;1.1.1 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->log4j#log4j;1.2.17 [compile->default(compile)]
 [info] Resolving log4j#log4j;1.2.17 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7055aede
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1a322c9f
 [debug] sbt-chain: module revision found in cache: log4j#log4j;1.2.17
 [debug] 	local: revision in cache: log4j#log4j;1.2.17
 [debug] 	found log4j#log4j;1.2.17 in sbt-chain
@@ -150,7 +150,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->log4j#log4j;1.2.17 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->commons-lang#commons-lang;2.5 [compile->default(compile)]
 [info] Resolving commons-lang#commons-lang;2.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7e9083bb
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@680b5984
 [debug] sbt-chain: module revision found in cache: commons-lang#commons-lang;2.5
 [debug] 	local: revision in cache: commons-lang#commons-lang;2.5
 [debug] 	found commons-lang#commons-lang;2.5 in sbt-chain
@@ -159,7 +159,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->commons-lang#commons-lang;2.5 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->commons-configuration#commons-configuration;1.6 [compile->default(compile)]
 [info] Resolving commons-configuration#commons-configuration;1.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5a7c5c88
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6760f5a7
 [debug] sbt-chain: module revision found in cache: commons-configuration#commons-configuration;1.6
 [debug] 	local: revision in cache: commons-configuration#commons-configuration;1.6
 [debug] 	found commons-configuration#commons-configuration;1.6 in sbt-chain
@@ -168,7 +168,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->commons-configuration#commons-configuration;1.6 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->commons-collections#commons-collections;3.2.1 [compile->default(compile)]
 [info] Resolving commons-collections#commons-collections;3.2.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4618a744
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@693880ff
 [debug] sbt-chain: module revision found in cache: commons-collections#commons-collections;3.2.1
 [debug] 	local: revision in cache: commons-collections#commons-collections;3.2.1
 [debug] 	found commons-collections#commons-collections;3.2.1 in sbt-chain
@@ -177,7 +177,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->commons-collections#commons-collections;3.2.1 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->commons-digester#commons-digester;1.8 [compile->default(compile)]
 [info] Resolving commons-digester#commons-digester;1.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2c52ffdd
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4cff7287
 [debug] sbt-chain: module revision found in cache: commons-digester#commons-digester;1.8
 [debug] 	local: revision in cache: commons-digester#commons-digester;1.8
 [debug] 	found commons-digester#commons-digester;1.8 in sbt-chain
@@ -186,7 +186,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->commons-digester#commons-digester;1.8 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->commons-beanutils#commons-beanutils;1.7.0 [compile->default(compile)]
 [info] Resolving commons-beanutils#commons-beanutils;1.7.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@119583af
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5154aca9
 [debug] sbt-chain: module revision found in cache: commons-beanutils#commons-beanutils;1.7.0
 [debug] 	local: revision in cache: commons-beanutils#commons-beanutils;1.7.0
 [debug] 	found commons-beanutils#commons-beanutils;1.7.0 in sbt-chain
@@ -204,7 +204,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.slf4j#slf4j-api;1.7.5 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.avro#avro;1.7.4 [compile->default(compile)]
 [info] Resolving org.apache.avro#avro;1.7.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@23b7a809
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3fa2ec6a
 [debug] sbt-chain: module revision found in cache: org.apache.avro#avro;1.7.4
 [debug] 	local: revision in cache: org.apache.avro#avro;1.7.4
 [debug] 	found org.apache.avro#avro;1.7.4 in sbt-chain
@@ -213,7 +213,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.avro#avro;1.7.4 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.commons#commons-compress;1.4.1 [compile->default(compile)]
 [info] Resolving org.apache.commons#commons-compress;1.4.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@59677282
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@51154edd
 [debug] sbt-chain: module revision found in cache: org.apache.commons#commons-compress;1.4.1
 [debug] 	local: revision in cache: org.apache.commons#commons-compress;1.4.1
 [debug] 	found org.apache.commons#commons-compress;1.4.1 in sbt-chain
@@ -222,7 +222,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.commons#commons-compress;1.4.1 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.tukaani#xz;1.0 [compile->default(compile)]
 [info] Resolving org.tukaani#xz;1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7e3a325b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@72e99437
 [debug] sbt-chain: module revision found in cache: org.tukaani#xz;1.0
 [debug] 	local: revision in cache: org.tukaani#xz;1.0
 [debug] 	found org.tukaani#xz;1.0 in sbt-chain
@@ -231,7 +231,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.tukaani#xz;1.0 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->default(compile)]
 [info] Resolving com.google.protobuf#protobuf-java;2.5.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6c99cdbd
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6d9c24d7
 [debug] sbt-chain: module revision found in cache: com.google.protobuf#protobuf-java;2.5.0
 [debug] 	local: revision in cache: com.google.protobuf#protobuf-java;2.5.0
 [debug] 	found com.google.protobuf#protobuf-java;2.5.0 in sbt-chain
@@ -240,7 +240,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-auth;2.2.0 [compile->default(compile)]
 [info] Resolving org.apache.hadoop#hadoop-auth;2.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3b3335c8
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@572b44ec
 [debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-auth;2.2.0
 [debug] 	local: revision in cache: org.apache.hadoop#hadoop-auth;2.2.0
 [debug] 	found org.apache.hadoop#hadoop-auth;2.2.0 in sbt-chain
@@ -249,7 +249,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-auth;2.2.0 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-hdfs;2.2.0 [compile->default(compile)]
 [info] Resolving org.apache.hadoop#hadoop-hdfs;2.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@b60b9eb
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@60630531
 [debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-hdfs;2.2.0
 [debug] 	local: revision in cache: org.apache.hadoop#hadoop-hdfs;2.2.0
 [debug] 	found org.apache.hadoop#hadoop-hdfs;2.2.0 in sbt-chain
@@ -258,7 +258,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-hdfs;2.2.0 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.mortbay.jetty#jetty-util;6.1.26 [compile->default(compile)]
 [info] Resolving org.mortbay.jetty#jetty-util;6.1.26 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@303e683f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@cdb01e3
 [debug] sbt-chain: module revision found in cache: org.mortbay.jetty#jetty-util;6.1.26
 [debug] 	local: revision in cache: org.mortbay.jetty#jetty-util;6.1.26
 [debug] 	found org.mortbay.jetty#jetty-util;6.1.26 in sbt-chain
@@ -267,7 +267,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.mortbay.jetty#jetty-util;6.1.26 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 [compile->default(compile)]
 [info] Resolving org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2afffe92
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@519318c7
 [debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0
 [debug] 	local: revision in cache: org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0
 [debug] 	found org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 in sbt-chain
@@ -276,7 +276,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [compile->default(compile)]
 [info] Resolving org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@e881f1e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@715ad51a
 [debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0
 [debug] 	local: revision in cache: org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0
 [debug] 	found org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 in sbt-chain
@@ -285,7 +285,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [compile->default(compile)]
 [info] Resolving org.apache.hadoop#hadoop-yarn-common;2.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@319728b4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@efef86
 [debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-yarn-common;2.2.0
 [debug] 	local: revision in cache: org.apache.hadoop#hadoop-yarn-common;2.2.0
 [debug] 	found org.apache.hadoop#hadoop-yarn-common;2.2.0 in sbt-chain
@@ -294,7 +294,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [compile->default(compile)]
 [info] Resolving org.apache.hadoop#hadoop-yarn-api;2.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@49b7bb1f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@11b88558
 [debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-yarn-api;2.2.0
 [debug] 	local: revision in cache: org.apache.hadoop#hadoop-yarn-api;2.2.0
 [debug] 	found org.apache.hadoop#hadoop-yarn-api;2.2.0 in sbt-chain
@@ -303,7 +303,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.google.inject#guice;3.0 [compile->default(compile)]
 [info] Resolving com.google.inject#guice;3.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5b744373
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1fdcce8b
 [debug] sbt-chain: module revision found in cache: com.google.inject#guice;3.0
 [debug] 	local: revision in cache: com.google.inject#guice;3.0
 [debug] 	found com.google.inject#guice;3.0 in sbt-chain
@@ -312,7 +312,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.google.inject#guice;3.0 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->javax.inject#javax.inject;1 [compile->default(compile)]
 [info] Resolving javax.inject#javax.inject;1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2e18a1e7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@364b771a
 [debug] sbt-chain: module revision found in cache: javax.inject#javax.inject;1
 [debug] 	local: revision in cache: javax.inject#javax.inject;1
 [debug] 	found javax.inject#javax.inject;1 in sbt-chain
@@ -321,7 +321,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->javax.inject#javax.inject;1 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->aopalliance#aopalliance;1.0 [compile->default(compile)]
 [info] Resolving aopalliance#aopalliance;1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7dc0e904
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7f2dcd23
 [debug] sbt-chain: module revision found in cache: aopalliance#aopalliance;1.0
 [debug] 	local: revision in cache: aopalliance#aopalliance;1.0
 [debug] 	found aopalliance#aopalliance;1.0 in sbt-chain
@@ -330,7 +330,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->aopalliance#aopalliance;1.0 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.sonatype.sisu.inject#cglib;2.2.1-v20090111 [compile->default(compile)]
 [info] Resolving org.sonatype.sisu.inject#cglib;2.2.1-v20090111 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@307d3f44
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@24382e6
 [debug] sbt-chain: module revision found in cache: org.sonatype.sisu.inject#cglib;2.2.1-v20090111
 [debug] 	local: revision in cache: org.sonatype.sisu.inject#cglib;2.2.1-v20090111
 [debug] 	found org.sonatype.sisu.inject#cglib;2.2.1-v20090111 in sbt-chain
@@ -339,7 +339,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.sonatype.sisu.inject#cglib;2.2.1-v20090111 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.sun.jersey.jersey-test-framework#jersey-test-framework-grizzly2;1.9 [compile->default(compile)]
 [info] Resolving com.sun.jersey.jersey-test-framework#jersey-test-framework-grizzly2;1.9 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@35e150fb
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@28f2525
 [debug] sbt-chain: module revision found in cache: com.sun.jersey.jersey-test-framework#jersey-test-framework-grizzly2;1.9
 [debug] 	local: revision in cache: com.sun.jersey.jersey-test-framework#jersey-test-framework-grizzly2;1.9
 [debug] 	found com.sun.jersey.jersey-test-framework#jersey-test-framework-grizzly2;1.9 in sbt-chain
@@ -348,7 +348,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.sun.jersey.jersey-test-framework#jersey-test-framework-grizzly2;1.9 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.sun.jersey#jersey-server;1.9 [compile->default(compile)]
 [info] Resolving com.sun.jersey#jersey-server;1.9 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4cb106be
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@25248d56
 [debug] sbt-chain: module revision found in cache: com.sun.jersey#jersey-server;1.9
 [debug] 	local: revision in cache: com.sun.jersey#jersey-server;1.9
 [debug] 	found com.sun.jersey#jersey-server;1.9 in sbt-chain
@@ -357,7 +357,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.sun.jersey#jersey-server;1.9 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.sun.jersey#jersey-json;1.9 [compile->default(compile)]
 [info] Resolving com.sun.jersey#jersey-json;1.9 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5b08abf4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@76d062df
 [debug] sbt-chain: module revision found in cache: com.sun.jersey#jersey-json;1.9
 [debug] 	local: revision in cache: com.sun.jersey#jersey-json;1.9
 [debug] 	found com.sun.jersey#jersey-json;1.9 in sbt-chain
@@ -366,7 +366,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.sun.jersey#jersey-json;1.9 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.codehaus.jettison#jettison;1.1 [compile->default(compile)]
 [info] Resolving org.codehaus.jettison#jettison;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7c403381
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6f38ea04
 [debug] sbt-chain: module revision found in cache: org.codehaus.jettison#jettison;1.1
 [debug] 	local: revision in cache: org.codehaus.jettison#jettison;1.1
 [debug] 	found org.codehaus.jettison#jettison;1.1 in sbt-chain
@@ -375,7 +375,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.codehaus.jettison#jettison;1.1 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.sun.xml.bind#jaxb-impl;2.2.3-1 [compile->default(compile)]
 [info] Resolving com.sun.xml.bind#jaxb-impl;2.2.3-1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5c1c5c20
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@54358764
 [debug] sbt-chain: module revision found in cache: com.sun.xml.bind#jaxb-impl;2.2.3-1
 [debug] 	local: revision in cache: com.sun.xml.bind#jaxb-impl;2.2.3-1
 [debug] 	found com.sun.xml.bind#jaxb-impl;2.2.3-1 in sbt-chain
@@ -384,7 +384,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.sun.xml.bind#jaxb-impl;2.2.3-1 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->javax.xml.bind#jaxb-api;2.2.2 [compile->default(compile)]
 [info] Resolving javax.xml.bind#jaxb-api;2.2.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@41480a1f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@32fdbeda
 [debug] sbt-chain: module revision found in cache: javax.xml.bind#jaxb-api;2.2.2
 [debug] 	local: revision in cache: javax.xml.bind#jaxb-api;2.2.2
 [debug] 	found javax.xml.bind#jaxb-api;2.2.2 in sbt-chain
@@ -393,7 +393,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->javax.xml.bind#jaxb-api;2.2.2 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->javax.activation#activation;1.1 [compile->default(compile)]
 [info] Resolving javax.activation#activation;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@17bc4c8
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@760455d4
 [debug] sbt-chain: module revision found in cache: javax.activation#activation;1.1
 [debug] 	local: revision in cache: javax.activation#activation;1.1
 [debug] 	found javax.activation#activation;1.1 in sbt-chain
@@ -402,7 +402,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->javax.activation#activation;1.1 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.codehaus.jackson#jackson-jaxrs;1.8.8 [compile->default(compile)]
 [info] Resolving org.codehaus.jackson#jackson-jaxrs;1.8.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@175f3212
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2f4b83f5
 [debug] sbt-chain: module revision found in cache: org.codehaus.jackson#jackson-jaxrs;1.8.8
 [debug] 	local: revision in cache: org.codehaus.jackson#jackson-jaxrs;1.8.8
 [debug] 	found org.codehaus.jackson#jackson-jaxrs;1.8.8 in sbt-chain
@@ -411,7 +411,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.codehaus.jackson#jackson-jaxrs;1.8.8 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.codehaus.jackson#jackson-xc;1.8.8 [compile->default(compile)]
 [info] Resolving org.codehaus.jackson#jackson-xc;1.8.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3b11c5b4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6dad1b9a
 [debug] sbt-chain: module revision found in cache: org.codehaus.jackson#jackson-xc;1.8.8
 [debug] 	local: revision in cache: org.codehaus.jackson#jackson-xc;1.8.8
 [debug] 	found org.codehaus.jackson#jackson-xc;1.8.8 in sbt-chain
@@ -420,7 +420,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.codehaus.jackson#jackson-xc;1.8.8 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.sun.jersey.contribs#jersey-guice;1.9 [compile->default(compile)]
 [info] Resolving com.sun.jersey.contribs#jersey-guice;1.9 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2eef47e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@360e2cfb
 [debug] sbt-chain: module revision found in cache: com.sun.jersey.contribs#jersey-guice;1.9
 [debug] 	local: revision in cache: com.sun.jersey.contribs#jersey-guice;1.9
 [debug] 	found com.sun.jersey.contribs#jersey-guice;1.9 in sbt-chain
@@ -429,7 +429,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.sun.jersey.contribs#jersey-guice;1.9 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-client;2.2.0 [compile->default(compile)]
 [info] Resolving org.apache.hadoop#hadoop-yarn-client;2.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@398771ce
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@34da1f3f
 [debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-yarn-client;2.2.0
 [debug] 	local: revision in cache: org.apache.hadoop#hadoop-yarn-client;2.2.0
 [debug] 	found org.apache.hadoop#hadoop-yarn-client;2.2.0 in sbt-chain
@@ -438,7 +438,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-client;2.2.0 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-core;2.2.0 [compile->default(compile)]
 [info] Resolving org.apache.hadoop#hadoop-mapreduce-client-core;2.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4df5e7c0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@23a71bfd
 [debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-mapreduce-client-core;2.2.0
 [debug] 	local: revision in cache: org.apache.hadoop#hadoop-mapreduce-client-core;2.2.0
 [debug] 	found org.apache.hadoop#hadoop-mapreduce-client-core;2.2.0 in sbt-chain
@@ -447,7 +447,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-core;2.2.0 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-common;2.2.0 [compile->default(compile)]
 [info] Resolving org.apache.hadoop#hadoop-yarn-server-common;2.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3d1d3c94
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2a3ec96e
 [debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-yarn-server-common;2.2.0
 [debug] 	local: revision in cache: org.apache.hadoop#hadoop-yarn-server-common;2.2.0
 [debug] 	found org.apache.hadoop#hadoop-yarn-server-common;2.2.0 in sbt-chain
@@ -456,7 +456,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-common;2.2.0 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [compile->default(compile)]
 [info] Resolving org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3ec5c781
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@59865beb
 [debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0
 [debug] 	local: revision in cache: org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0
 [debug] 	found org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 in sbt-chain
@@ -465,7 +465,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [compile->default(compile)]
 [info] Resolving org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@64f98ef1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@197115db
 [debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0
 [debug] 	local: revision in cache: org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0
 [debug] 	found org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 in sbt-chain
@@ -474,7 +474,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [compile->default(compile)]
 [info] Resolving org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@27e92b2b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4dc53e14
 [debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0
 [debug] 	local: revision in cache: org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0
 [debug] 	found org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 in sbt-chain
@@ -483,7 +483,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.spark#spark-network-common_2.11;1.3.0 [compile->default(compile)]
 [info] Resolving org.apache.spark#spark-network-common_2.11;1.3.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4ddb1499
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@140a2d31
 [debug] sbt-chain: module revision found in cache: org.apache.spark#spark-network-common_2.11;1.3.0
 [debug] 	local: revision in cache: org.apache.spark#spark-network-common_2.11;1.3.0
 [debug] 	found org.apache.spark#spark-network-common_2.11;1.3.0 in sbt-chain
@@ -492,7 +492,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.spark#spark-network-common_2.11;1.3.0 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->io.netty#netty-all;4.0.23.Final [compile->default(compile)]
 [info] Resolving io.netty#netty-all;4.0.23.Final ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@413c978a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@615bbe8
 [debug] sbt-chain: module revision found in cache: io.netty#netty-all;4.0.23.Final
 [debug] 	local: revision in cache: io.netty#netty-all;4.0.23.Final
 [debug] 	found io.netty#netty-all;4.0.23.Final in sbt-chain
@@ -501,7 +501,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->io.netty#netty-all;4.0.23.Final [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.spark-project.spark#unused;1.0.0 [compile->default(compile)]
 [info] Resolving org.spark-project.spark#unused;1.0.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@70ea9d43
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@23bf9793
 [debug] sbt-chain: module revision found in cache: org.spark-project.spark#unused;1.0.0
 [debug] 	local: revision in cache: org.spark-project.spark#unused;1.0.0
 [debug] 	found org.spark-project.spark#unused;1.0.0 in sbt-chain
@@ -510,7 +510,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.spark-project.spark#unused;1.0.0 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.spark#spark-network-shuffle_2.11;1.3.0 [compile->default(compile)]
 [info] Resolving org.apache.spark#spark-network-shuffle_2.11;1.3.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@35939e4a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@62ca4d3c
 [debug] sbt-chain: module revision found in cache: org.apache.spark#spark-network-shuffle_2.11;1.3.0
 [debug] 	local: revision in cache: org.apache.spark#spark-network-shuffle_2.11;1.3.0
 [debug] 	found org.apache.spark#spark-network-shuffle_2.11;1.3.0 in sbt-chain
@@ -519,7 +519,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.spark#spark-network-shuffle_2.11;1.3.0 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->net.java.dev.jets3t#jets3t;0.7.1 [compile->default(compile)]
 [info] Resolving net.java.dev.jets3t#jets3t;0.7.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6054fbbe
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3a2fd721
 [debug] sbt-chain: module revision found in cache: net.java.dev.jets3t#jets3t;0.7.1
 [debug] 	local: revision in cache: net.java.dev.jets3t#jets3t;0.7.1
 [debug] 	found net.java.dev.jets3t#jets3t;0.7.1 in sbt-chain
@@ -528,7 +528,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->net.java.dev.jets3t#jets3t;0.7.1 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.curator#curator-recipes;2.4.0 [compile->default(compile)]
 [info] Resolving org.apache.curator#curator-recipes;2.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5b3fe2c5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@74de0d7b
 [debug] sbt-chain: module revision found in cache: org.apache.curator#curator-recipes;2.4.0
 [debug] 	local: revision in cache: org.apache.curator#curator-recipes;2.4.0
 [debug] 	found org.apache.curator#curator-recipes;2.4.0 in sbt-chain
@@ -537,7 +537,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.curator#curator-recipes;2.4.0 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.curator#curator-framework;2.4.0 [compile->default(compile)]
 [info] Resolving org.apache.curator#curator-framework;2.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@150135c8
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4ddb1499
 [debug] sbt-chain: module revision found in cache: org.apache.curator#curator-framework;2.4.0
 [debug] 	local: revision in cache: org.apache.curator#curator-framework;2.4.0
 [debug] 	found org.apache.curator#curator-framework;2.4.0 in sbt-chain
@@ -546,7 +546,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.curator#curator-framework;2.4.0 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.curator#curator-client;2.4.0 [compile->default(compile)]
 [info] Resolving org.apache.curator#curator-client;2.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5b6e463e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@722da63b
 [debug] sbt-chain: module revision found in cache: org.apache.curator#curator-client;2.4.0
 [debug] 	local: revision in cache: org.apache.curator#curator-client;2.4.0
 [debug] 	found org.apache.curator#curator-client;2.4.0 in sbt-chain
@@ -555,7 +555,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.curator#curator-client;2.4.0 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.zookeeper#zookeeper;3.4.5 [compile->default(compile)]
 [info] Resolving org.apache.zookeeper#zookeeper;3.4.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@401938de
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7536885a
 [debug] sbt-chain: module revision found in cache: org.apache.zookeeper#zookeeper;3.4.5
 [debug] 	local: revision in cache: org.apache.zookeeper#zookeeper;3.4.5
 [debug] 	found org.apache.zookeeper#zookeeper;3.4.5 in sbt-chain
@@ -564,7 +564,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.zookeeper#zookeeper;3.4.5 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->jline#jline;0.9.94 [compile->default(compile)]
 [info] Resolving jline#jline;0.9.94 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@224f5ddc
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@295b89f9
 [debug] sbt-chain: module revision found in cache: jline#jline;0.9.94
 [debug] 	local: revision in cache: jline#jline;0.9.94
 [debug] 	found jline#jline;0.9.94 in sbt-chain
@@ -573,7 +573,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->jline#jline;0.9.94 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.google.guava#guava;14.0.1 [compile->default(compile)]
 [info] Resolving com.google.guava#guava;14.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@242376fb
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5abce6eb
 [debug] sbt-chain: module revision found in cache: com.google.guava#guava;14.0.1
 [debug] 	local: revision in cache: com.google.guava#guava;14.0.1
 [debug] 	found com.google.guava#guava;14.0.1 in sbt-chain
@@ -582,7 +582,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.google.guava#guava;14.0.1 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->default(compile)]
 [info] Resolving org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@52edb54d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4e89e3c6
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016
 [debug] 	local: revision in cache: org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016
 [debug] 	found org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 in sbt-chain
@@ -591,7 +591,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.commons#commons-lang3;3.3.2 [compile->default(compile)]
 [info] Resolving org.apache.commons#commons-lang3;3.3.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6ebd9dc
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4d33d2a1
 [debug] sbt-chain: module revision found in cache: org.apache.commons#commons-lang3;3.3.2
 [debug] 	local: revision in cache: org.apache.commons#commons-lang3;3.3.2
 [debug] 	found org.apache.commons#commons-lang3;3.3.2 in sbt-chain
@@ -600,7 +600,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.commons#commons-lang3;3.3.2 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.commons#commons-math3;3.1.1 [compile->default(compile)]
 [info] Resolving org.apache.commons#commons-math3;3.1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@55410541
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@71802d8a
 [debug] sbt-chain: module revision found in cache: org.apache.commons#commons-math3;3.1.1
 [debug] 	local: revision in cache: org.apache.commons#commons-math3;3.1.1
 [debug] 	found org.apache.commons#commons-math3;3.1.1 in sbt-chain
@@ -609,7 +609,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.commons#commons-math3;3.1.1 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.slf4j#jul-to-slf4j;1.7.10 [compile->default(compile)]
 [info] Resolving org.slf4j#jul-to-slf4j;1.7.10 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4c97f775
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@200002f6
 [debug] sbt-chain: module revision found in cache: org.slf4j#jul-to-slf4j;1.7.10
 [debug] 	local: revision in cache: org.slf4j#jul-to-slf4j;1.7.10
 [debug] 	found org.slf4j#jul-to-slf4j;1.7.10 in sbt-chain
@@ -618,7 +618,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.slf4j#jul-to-slf4j;1.7.10 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.slf4j#jcl-over-slf4j;1.7.10 [compile->default(compile)]
 [info] Resolving org.slf4j#jcl-over-slf4j;1.7.10 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@29a8186c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@a2c31a1
 [debug] sbt-chain: module revision found in cache: org.slf4j#jcl-over-slf4j;1.7.10
 [debug] 	local: revision in cache: org.slf4j#jcl-over-slf4j;1.7.10
 [debug] 	found org.slf4j#jcl-over-slf4j;1.7.10 in sbt-chain
@@ -627,7 +627,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.slf4j#jcl-over-slf4j;1.7.10 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.slf4j#slf4j-log4j12;1.7.10 [compile->default(compile)]
 [info] Resolving org.slf4j#slf4j-log4j12;1.7.10 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@537e7174
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@659974ba
 [debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-log4j12;1.7.10
 [debug] 	local: revision in cache: org.slf4j#slf4j-log4j12;1.7.10
 [debug] 	found org.slf4j#slf4j-log4j12;1.7.10 in sbt-chain
@@ -636,7 +636,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.slf4j#slf4j-log4j12;1.7.10 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.ning#compress-lzf;1.0.0 [compile->default(compile)]
 [info] Resolving com.ning#compress-lzf;1.0.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@11a59f5c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1a1fde9a
 [debug] sbt-chain: module revision found in cache: com.ning#compress-lzf;1.0.0
 [debug] 	local: revision in cache: com.ning#compress-lzf;1.0.0
 [debug] 	found com.ning#compress-lzf;1.0.0 in sbt-chain
@@ -645,7 +645,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.ning#compress-lzf;1.0.0 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.xerial.snappy#snappy-java;1.1.1.6 [compile->default(compile)]
 [info] Resolving org.xerial.snappy#snappy-java;1.1.1.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3eeb6716
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4a229403
 [debug] sbt-chain: module revision found in cache: org.xerial.snappy#snappy-java;1.1.1.6
 [debug] 	local: revision in cache: org.xerial.snappy#snappy-java;1.1.1.6
 [debug] 	found org.xerial.snappy#snappy-java;1.1.1.6 in sbt-chain
@@ -654,7 +654,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.xerial.snappy#snappy-java;1.1.1.6 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->net.jpountz.lz4#lz4;1.2.0 [compile->default(compile)]
 [info] Resolving net.jpountz.lz4#lz4;1.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1828b826
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@736e5e3f
 [debug] sbt-chain: module revision found in cache: net.jpountz.lz4#lz4;1.2.0
 [debug] 	local: revision in cache: net.jpountz.lz4#lz4;1.2.0
 [debug] 	found net.jpountz.lz4#lz4;1.2.0 in sbt-chain
@@ -663,7 +663,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->net.jpountz.lz4#lz4;1.2.0 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.roaringbitmap#RoaringBitmap;0.4.5 [compile->default(compile)]
 [info] Resolving org.roaringbitmap#RoaringBitmap;0.4.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6cf26de4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6766b0f5
 [debug] sbt-chain: module revision found in cache: org.roaringbitmap#RoaringBitmap;0.4.5
 [debug] 	local: revision in cache: org.roaringbitmap#RoaringBitmap;0.4.5
 [debug] 	found org.roaringbitmap#RoaringBitmap;0.4.5 in sbt-chain
@@ -672,7 +672,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.roaringbitmap#RoaringBitmap;0.4.5 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->commons-net#commons-net;2.2 [compile->default(compile)]
 [info] Resolving commons-net#commons-net;2.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@56879a04
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@55410541
 [debug] sbt-chain: module revision found in cache: commons-net#commons-net;2.2
 [debug] 	local: revision in cache: commons-net#commons-net;2.2
 [debug] 	found commons-net#commons-net;2.2 in sbt-chain
@@ -681,7 +681,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->commons-net#commons-net;2.2 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.spark-project.akka#akka-remote_2.11;2.3.4-spark [compile->default(compile)]
 [info] Resolving org.spark-project.akka#akka-remote_2.11;2.3.4-spark ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4f578be8
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4c97f775
 [debug] sbt-chain: module revision found in cache: org.spark-project.akka#akka-remote_2.11;2.3.4-spark
 [debug] 	local: revision in cache: org.spark-project.akka#akka-remote_2.11;2.3.4-spark
 [debug] 	found org.spark-project.akka#akka-remote_2.11;2.3.4-spark in sbt-chain
@@ -690,7 +690,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.spark-project.akka#akka-remote_2.11;2.3.4-spark [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.spark-project.akka#akka-actor_2.11;2.3.4-spark [compile->default(compile)]
 [info] Resolving org.spark-project.akka#akka-actor_2.11;2.3.4-spark ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@49b6c537
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@584adda9
 [debug] sbt-chain: module revision found in cache: org.spark-project.akka#akka-actor_2.11;2.3.4-spark
 [debug] 	local: revision in cache: org.spark-project.akka#akka-actor_2.11;2.3.4-spark
 [debug] 	found org.spark-project.akka#akka-actor_2.11;2.3.4-spark in sbt-chain
@@ -699,7 +699,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.spark-project.akka#akka-actor_2.11;2.3.4-spark [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [compile->default(compile)]
 [info] Resolving com.typesafe#config;1.2.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@38528f18
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@43af15e3
 [debug] sbt-chain: module revision found in cache: com.typesafe#config;1.2.1
 [debug] 	local: revision in cache: com.typesafe#config;1.2.1
 [debug] 	found com.typesafe#config;1.2.1 in sbt-chain
@@ -708,7 +708,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [compile->default(compile)]
 [info] Resolving io.netty#netty;3.8.0.Final ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6feb54f3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@124aa17f
 [debug] sbt-chain: module revision found in cache: io.netty#netty;3.8.0.Final
 [debug] 	local: revision in cache: io.netty#netty;3.8.0.Final
 [debug] 	found io.netty#netty;3.8.0.Final in sbt-chain
@@ -717,7 +717,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->io.netty#netty;3.8.0.Final [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.spark-project.protobuf#protobuf-java;2.5.0-spark [compile->default(compile)]
 [info] Resolving org.spark-project.protobuf#protobuf-java;2.5.0-spark ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@fdf97c3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7f287a2d
 [debug] sbt-chain: module revision found in cache: org.spark-project.protobuf#protobuf-java;2.5.0-spark
 [debug] 	local: revision in cache: org.spark-project.protobuf#protobuf-java;2.5.0-spark
 [debug] 	found org.spark-project.protobuf#protobuf-java;2.5.0-spark in sbt-chain
@@ -726,7 +726,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.spark-project.protobuf#protobuf-java;2.5.0-spark [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->default(compile)]
 [info] Resolving org.uncommons.maths#uncommons-maths;1.2.2a ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4f42e756
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@231e04a9
 [debug] sbt-chain: module revision found in cache: org.uncommons.maths#uncommons-maths;1.2.2a
 [debug] 	local: revision in cache: org.uncommons.maths#uncommons-maths;1.2.2a
 [debug] 	found org.uncommons.maths#uncommons-maths;1.2.2a in sbt-chain
@@ -735,7 +735,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.spark-project.akka#akka-slf4j_2.11;2.3.4-spark [compile->default(compile)]
 [info] Resolving org.spark-project.akka#akka-slf4j_2.11;2.3.4-spark ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3774df37
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7dfc2250
 [debug] sbt-chain: module revision found in cache: org.spark-project.akka#akka-slf4j_2.11;2.3.4-spark
 [debug] 	local: revision in cache: org.spark-project.akka#akka-slf4j_2.11;2.3.4-spark
 [debug] 	found org.spark-project.akka#akka-slf4j_2.11;2.3.4-spark in sbt-chain
@@ -744,7 +744,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.spark-project.akka#akka-slf4j_2.11;2.3.4-spark [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.json4s#json4s-jackson_2.11;3.2.10 [compile->default(compile)]
 [info] Resolving org.json4s#json4s-jackson_2.11;3.2.10 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@797266b7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@ace6d2c
 [debug] sbt-chain: module revision found in cache: org.json4s#json4s-jackson_2.11;3.2.10
 [debug] 	local: revision in cache: org.json4s#json4s-jackson_2.11;3.2.10
 [debug] 	found org.json4s#json4s-jackson_2.11;3.2.10 in sbt-chain
@@ -753,7 +753,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.json4s#json4s-jackson_2.11;3.2.10 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.json4s#json4s-core_2.11;3.2.10 [compile->default(compile)]
 [info] Resolving org.json4s#json4s-core_2.11;3.2.10 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@160113ef
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2a2cdfbe
 [debug] sbt-chain: module revision found in cache: org.json4s#json4s-core_2.11;3.2.10
 [debug] 	local: revision in cache: org.json4s#json4s-core_2.11;3.2.10
 [debug] 	found org.json4s#json4s-core_2.11;3.2.10 in sbt-chain
@@ -762,7 +762,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.json4s#json4s-core_2.11;3.2.10 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.json4s#json4s-ast_2.11;3.2.10 [compile->default(compile)]
 [info] Resolving org.json4s#json4s-ast_2.11;3.2.10 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@39c0a01d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@18d2b7d1
 [debug] sbt-chain: module revision found in cache: org.json4s#json4s-ast_2.11;3.2.10
 [debug] 	local: revision in cache: org.json4s#json4s-ast_2.11;3.2.10
 [debug] 	found org.json4s#json4s-ast_2.11;3.2.10 in sbt-chain
@@ -771,7 +771,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.json4s#json4s-ast_2.11;3.2.10 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.thoughtworks.paranamer#paranamer;2.6 [compile->default(compile)]
 [info] Resolving com.thoughtworks.paranamer#paranamer;2.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5b915f2d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@71253766
 [debug] sbt-chain: module revision found in cache: com.thoughtworks.paranamer#paranamer;2.6
 [debug] 	local: revision in cache: com.thoughtworks.paranamer#paranamer;2.6
 [debug] 	found com.thoughtworks.paranamer#paranamer;2.6 in sbt-chain
@@ -780,7 +780,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.thoughtworks.paranamer#paranamer;2.6 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.scala-lang#scalap;2.11.0 [compile->default(compile)]
 [info] Resolving org.scala-lang#scalap;2.11.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5b6fcf83
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@18973159
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scalap;2.11.0
 [debug] 	local: revision in cache: org.scala-lang#scalap;2.11.0
 [debug] 	found org.scala-lang#scalap;2.11.0 in sbt-chain
@@ -789,7 +789,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.scala-lang#scalap;2.11.0 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.scala-lang#scala-compiler;2.11.6 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-compiler;2.11.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2ed233bc
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7fd08e8e
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.6
 [debug] 	local: revision in cache: org.scala-lang#scala-compiler;2.11.6
 [debug] 	found org.scala-lang#scala-compiler;2.11.6 in sbt-chain
@@ -798,7 +798,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.scala-lang#scala-compiler;2.11.6 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.scala-lang#scala-reflect;2.11.6 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-reflect;2.11.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3bc53d4e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@195e5612
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.6
 [debug] 	local: revision in cache: org.scala-lang#scala-reflect;2.11.6
 [debug] 	found org.scala-lang#scala-reflect;2.11.6 in sbt-chain
@@ -807,7 +807,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.scala-lang#scala-reflect;2.11.6 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.3 [compile->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6884711e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@45cf68ff
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.3
 [debug] 	local: revision in cache: org.scala-lang.modules#scala-xml_2.11;1.0.3
 [debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.3 in sbt-chain
@@ -816,7 +816,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.3 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [compile->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@65e7aae0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5d0847d0
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3
 [debug] 	local: revision in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3
 [debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 in sbt-chain
@@ -825,7 +825,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.mesos#mesos;0.21.0 [compile->default(compile)]
 [info] Resolving org.apache.mesos#mesos;0.21.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6bda1add
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@27fc4bc2
 [debug] sbt-chain: module revision found in cache: org.apache.mesos#mesos;0.21.0
 [debug] 	local: revision in cache: org.apache.mesos#mesos;0.21.0
 [debug] 	found org.apache.mesos#mesos;0.21.0 in sbt-chain
@@ -834,7 +834,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.mesos#mesos;0.21.0 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.clearspring.analytics#stream;2.7.0 [compile->default(compile)]
 [info] Resolving com.clearspring.analytics#stream;2.7.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4c0e0cc5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@793fec67
 [debug] sbt-chain: module revision found in cache: com.clearspring.analytics#stream;2.7.0
 [debug] 	local: revision in cache: com.clearspring.analytics#stream;2.7.0
 [debug] 	found com.clearspring.analytics#stream;2.7.0 in sbt-chain
@@ -843,7 +843,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.clearspring.analytics#stream;2.7.0 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->io.dropwizard.metrics#metrics-core;3.1.0 [compile->default(compile)]
 [info] Resolving io.dropwizard.metrics#metrics-core;3.1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7cae71e4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4a4416ea
 [debug] sbt-chain: module revision found in cache: io.dropwizard.metrics#metrics-core;3.1.0
 [debug] 	local: revision in cache: io.dropwizard.metrics#metrics-core;3.1.0
 [debug] 	found io.dropwizard.metrics#metrics-core;3.1.0 in sbt-chain
@@ -852,7 +852,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->io.dropwizard.metrics#metrics-core;3.1.0 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->io.dropwizard.metrics#metrics-jvm;3.1.0 [compile->default(compile)]
 [info] Resolving io.dropwizard.metrics#metrics-jvm;3.1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@20d9c329
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2029036c
 [debug] sbt-chain: module revision found in cache: io.dropwizard.metrics#metrics-jvm;3.1.0
 [debug] 	local: revision in cache: io.dropwizard.metrics#metrics-jvm;3.1.0
 [debug] 	found io.dropwizard.metrics#metrics-jvm;3.1.0 in sbt-chain
@@ -861,7 +861,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->io.dropwizard.metrics#metrics-jvm;3.1.0 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->io.dropwizard.metrics#metrics-json;3.1.0 [compile->default(compile)]
 [info] Resolving io.dropwizard.metrics#metrics-json;3.1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7c84e2e1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@53a30e4b
 [debug] sbt-chain: module revision found in cache: io.dropwizard.metrics#metrics-json;3.1.0
 [debug] 	local: revision in cache: io.dropwizard.metrics#metrics-json;3.1.0
 [debug] 	found io.dropwizard.metrics#metrics-json;3.1.0 in sbt-chain
@@ -870,7 +870,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->io.dropwizard.metrics#metrics-json;3.1.0 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->io.dropwizard.metrics#metrics-graphite;3.1.0 [compile->default(compile)]
 [info] Resolving io.dropwizard.metrics#metrics-graphite;3.1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6b0adb0c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@77d3b93
 [debug] sbt-chain: module revision found in cache: io.dropwizard.metrics#metrics-graphite;3.1.0
 [debug] 	local: revision in cache: io.dropwizard.metrics#metrics-graphite;3.1.0
 [debug] 	found io.dropwizard.metrics#metrics-graphite;3.1.0 in sbt-chain
@@ -879,7 +879,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->io.dropwizard.metrics#metrics-graphite;3.1.0 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.fasterxml.jackson.core#jackson-databind;2.4.4 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-databind;2.4.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@296d53c3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3bc53d4e
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-databind;2.4.4
 [debug] 	local: revision in cache: com.fasterxml.jackson.core#jackson-databind;2.4.4
 [debug] 	found com.fasterxml.jackson.core#jackson-databind;2.4.4 in sbt-chain
@@ -888,7 +888,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.fasterxml.jackson.core#jackson-databind;2.4.4 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.4.4 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-core;2.4.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@a3ae229
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6884711e
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-core;2.4.4
 [debug] 	local: revision in cache: com.fasterxml.jackson.core#jackson-core;2.4.4
 [debug] 	found com.fasterxml.jackson.core#jackson-core;2.4.4 in sbt-chain
@@ -897,7 +897,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.4.4 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.fasterxml.jackson.module#jackson-module-scala_2.11;2.4.4 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.module#jackson-module-scala_2.11;2.4.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@76ccb73e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@65e7aae0
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.module#jackson-module-scala_2.11;2.4.4
 [debug] 	local: revision in cache: com.fasterxml.jackson.module#jackson-module-scala_2.11;2.4.4
 [debug] 	found com.fasterxml.jackson.module#jackson-module-scala_2.11;2.4.4 in sbt-chain
@@ -906,7 +906,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.fasterxml.jackson.module#jackson-module-scala_2.11;2.4.4 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.fasterxml.jackson.core#jackson-annotations;2.4.4 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-annotations;2.4.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@41c596d9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6bda1add
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-annotations;2.4.4
 [debug] 	local: revision in cache: com.fasterxml.jackson.core#jackson-annotations;2.4.4
 [debug] 	found com.fasterxml.jackson.core#jackson-annotations;2.4.4 in sbt-chain
@@ -915,7 +915,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.fasterxml.jackson.core#jackson-annotations;2.4.4 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.ivy#ivy;2.4.0 [compile->default(compile)]
 [info] Resolving org.apache.ivy#ivy;2.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4011088a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4c0e0cc5
 [debug] sbt-chain: module revision found in cache: org.apache.ivy#ivy;2.4.0
 [debug] 	local: revision in cache: org.apache.ivy#ivy;2.4.0
 [debug] 	found org.apache.ivy#ivy;2.4.0 in sbt-chain
@@ -924,7 +924,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.ivy#ivy;2.4.0 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->oro#oro;2.0.8 [compile->default(compile)]
 [info] Resolving oro#oro;2.0.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@789bbd9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7cae71e4
 [debug] sbt-chain: module revision found in cache: oro#oro;2.0.8
 [debug] 	local: revision in cache: oro#oro;2.0.8
 [debug] 	found oro#oro;2.0.8 in sbt-chain
@@ -933,7 +933,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->oro#oro;2.0.8 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.tachyonproject#tachyon-client;0.5.0 [compile->default(compile)]
 [info] Resolving org.tachyonproject#tachyon-client;0.5.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7ca2dd43
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6dee1435
 [debug] sbt-chain: module revision found in cache: org.tachyonproject#tachyon-client;0.5.0
 [debug] 	local: revision in cache: org.tachyonproject#tachyon-client;0.5.0
 [debug] 	found org.tachyonproject#tachyon-client;0.5.0 in sbt-chain
@@ -942,7 +942,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.tachyonproject#tachyon-client;0.5.0 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.tachyonproject#tachyon;0.5.0 [compile->default(compile)]
 [info] Resolving org.tachyonproject#tachyon;0.5.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@62826d67
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4200d504
 [debug] sbt-chain: module revision found in cache: org.tachyonproject#tachyon;0.5.0
 [debug] 	local: revision in cache: org.tachyonproject#tachyon;0.5.0
 [debug] 	found org.tachyonproject#tachyon;0.5.0 in sbt-chain
@@ -951,7 +951,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.tachyonproject#tachyon;0.5.0 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->commons-io#commons-io;2.4 [compile->default(compile)]
 [info] Resolving commons-io#commons-io;2.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6fe85471
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@24f5711e
 [debug] sbt-chain: module revision found in cache: commons-io#commons-io;2.4
 [debug] 	local: revision in cache: commons-io#commons-io;2.4
 [debug] 	found commons-io#commons-io;2.4 in sbt-chain
@@ -960,7 +960,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->commons-io#commons-io;2.4 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.spark-project#pyrolite;2.0.1 [compile->default(compile)]
 [info] Resolving org.spark-project#pyrolite;2.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5a968db1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@48963c74
 [debug] sbt-chain: module revision found in cache: org.spark-project#pyrolite;2.0.1
 [debug] 	local: revision in cache: org.spark-project#pyrolite;2.0.1
 [debug] 	found org.spark-project#pyrolite;2.0.1 in sbt-chain
@@ -969,7 +969,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.spark-project#pyrolite;2.0.1 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->net.sf.py4j#py4j;0.8.2.1 [compile->default(compile)]
 [info] Resolving net.sf.py4j#py4j;0.8.2.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5e78d934
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1fd5f6fe
 [debug] sbt-chain: module revision found in cache: net.sf.py4j#py4j;0.8.2.1
 [debug] 	local: revision in cache: net.sf.py4j#py4j;0.8.2.1
 [debug] 	found net.sf.py4j#py4j;0.8.2.1 in sbt-chain
@@ -978,7 +978,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->net.sf.py4j#py4j;0.8.2.1 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.spark#spark-mllib_2.11;1.3.0 [compile->default(compile)]
 [info] Resolving org.apache.spark#spark-mllib_2.11;1.3.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4e0a12d9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7a128460
 [debug] sbt-chain: module revision found in cache: org.apache.spark#spark-mllib_2.11;1.3.0
 [debug] 	local: revision in cache: org.apache.spark#spark-mllib_2.11;1.3.0
 [debug] 	found org.apache.spark#spark-mllib_2.11;1.3.0 in sbt-chain
@@ -987,7 +987,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.spark#spark-mllib_2.11;1.3.0 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.spark#spark-streaming_2.11;1.3.0 [compile->default(compile)]
 [info] Resolving org.apache.spark#spark-streaming_2.11;1.3.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4516ce65
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1332a24b
 [debug] sbt-chain: module revision found in cache: org.apache.spark#spark-streaming_2.11;1.3.0
 [debug] 	local: revision in cache: org.apache.spark#spark-streaming_2.11;1.3.0
 [debug] 	found org.apache.spark#spark-streaming_2.11;1.3.0 in sbt-chain
@@ -996,7 +996,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.spark#spark-streaming_2.11;1.3.0 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.spark#spark-sql_2.11;1.3.0 [compile->default(compile)]
 [info] Resolving org.apache.spark#spark-sql_2.11;1.3.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4baa24e9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e47bce2
 [debug] sbt-chain: module revision found in cache: org.apache.spark#spark-sql_2.11;1.3.0
 [debug] 	local: revision in cache: org.apache.spark#spark-sql_2.11;1.3.0
 [debug] 	found org.apache.spark#spark-sql_2.11;1.3.0 in sbt-chain
@@ -1005,7 +1005,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.spark#spark-sql_2.11;1.3.0 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.spark#spark-catalyst_2.11;1.3.0 [compile->default(compile)]
 [info] Resolving org.apache.spark#spark-catalyst_2.11;1.3.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@cdf81ba
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@638ba76c
 [debug] sbt-chain: module revision found in cache: org.apache.spark#spark-catalyst_2.11;1.3.0
 [debug] 	local: revision in cache: org.apache.spark#spark-catalyst_2.11;1.3.0
 [debug] 	found org.apache.spark#spark-catalyst_2.11;1.3.0 in sbt-chain
@@ -1014,7 +1014,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.spark#spark-catalyst_2.11;1.3.0 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.twitter#parquet-column;1.6.0rc3 [compile->default(compile)]
 [info] Resolving com.twitter#parquet-column;1.6.0rc3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@f9cb9e8
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@286c99a2
 [debug] sbt-chain: module revision found in cache: com.twitter#parquet-column;1.6.0rc3
 [debug] 	local: revision in cache: com.twitter#parquet-column;1.6.0rc3
 [debug] 	found com.twitter#parquet-column;1.6.0rc3 in sbt-chain
@@ -1023,7 +1023,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.twitter#parquet-column;1.6.0rc3 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.twitter#parquet-common;1.6.0rc3 [compile->default(compile)]
 [info] Resolving com.twitter#parquet-common;1.6.0rc3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4df935ec
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@60dcb7b7
 [debug] sbt-chain: module revision found in cache: com.twitter#parquet-common;1.6.0rc3
 [debug] 	local: revision in cache: com.twitter#parquet-common;1.6.0rc3
 [debug] 	found com.twitter#parquet-common;1.6.0rc3 in sbt-chain
@@ -1032,7 +1032,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.twitter#parquet-common;1.6.0rc3 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.twitter#parquet-encoding;1.6.0rc3 [compile->default(compile)]
 [info] Resolving com.twitter#parquet-encoding;1.6.0rc3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@551b04e5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7e00001c
 [debug] sbt-chain: module revision found in cache: com.twitter#parquet-encoding;1.6.0rc3
 [debug] 	local: revision in cache: com.twitter#parquet-encoding;1.6.0rc3
 [debug] 	found com.twitter#parquet-encoding;1.6.0rc3 in sbt-chain
@@ -1041,7 +1041,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.twitter#parquet-encoding;1.6.0rc3 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.twitter#parquet-generator;1.6.0rc3 [compile->default(compile)]
 [info] Resolving com.twitter#parquet-generator;1.6.0rc3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@9272af1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@52308ded
 [debug] sbt-chain: module revision found in cache: com.twitter#parquet-generator;1.6.0rc3
 [debug] 	local: revision in cache: com.twitter#parquet-generator;1.6.0rc3
 [debug] 	found com.twitter#parquet-generator;1.6.0rc3 in sbt-chain
@@ -1050,7 +1050,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.twitter#parquet-generator;1.6.0rc3 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->commons-codec#commons-codec;1.5 [compile->default(compile)]
 [info] Resolving commons-codec#commons-codec;1.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@551d30a9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7a8f6de8
 [debug] sbt-chain: module revision found in cache: commons-codec#commons-codec;1.5
 [debug] 	local: revision in cache: commons-codec#commons-codec;1.5
 [debug] 	found commons-codec#commons-codec;1.5 in sbt-chain
@@ -1059,7 +1059,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->commons-codec#commons-codec;1.5 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.twitter#parquet-hadoop;1.6.0rc3 [compile->default(compile)]
 [info] Resolving com.twitter#parquet-hadoop;1.6.0rc3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@52cf14c4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7f30931b
 [debug] sbt-chain: module revision found in cache: com.twitter#parquet-hadoop;1.6.0rc3
 [debug] 	local: revision in cache: com.twitter#parquet-hadoop;1.6.0rc3
 [debug] 	found com.twitter#parquet-hadoop;1.6.0rc3 in sbt-chain
@@ -1068,7 +1068,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.twitter#parquet-hadoop;1.6.0rc3 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.twitter#parquet-format;2.2.0-rc1 [compile->default(compile)]
 [info] Resolving com.twitter#parquet-format;2.2.0-rc1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@774ee0f4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3fbfbd15
 [debug] sbt-chain: module revision found in cache: com.twitter#parquet-format;2.2.0-rc1
 [debug] 	local: revision in cache: com.twitter#parquet-format;2.2.0-rc1
 [debug] 	found com.twitter#parquet-format;2.2.0-rc1 in sbt-chain
@@ -1077,7 +1077,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.twitter#parquet-format;2.2.0-rc1 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.twitter#parquet-jackson;1.6.0rc3 [compile->default(compile)]
 [info] Resolving com.twitter#parquet-jackson;1.6.0rc3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@59956cd
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@17224814
 [debug] sbt-chain: module revision found in cache: com.twitter#parquet-jackson;1.6.0rc3
 [debug] 	local: revision in cache: com.twitter#parquet-jackson;1.6.0rc3
 [debug] 	found com.twitter#parquet-jackson;1.6.0rc3 in sbt-chain
@@ -1086,7 +1086,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.twitter#parquet-jackson;1.6.0rc3 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.codehaus.jackson#jackson-mapper-asl;1.9.11 [compile->default(compile)]
 [info] Resolving org.codehaus.jackson#jackson-mapper-asl;1.9.11 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@64760424
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@be78549
 [debug] sbt-chain: module revision found in cache: org.codehaus.jackson#jackson-mapper-asl;1.9.11
 [debug] 	local: revision in cache: org.codehaus.jackson#jackson-mapper-asl;1.9.11
 [debug] 	found org.codehaus.jackson#jackson-mapper-asl;1.9.11 in sbt-chain
@@ -1095,7 +1095,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.codehaus.jackson#jackson-mapper-asl;1.9.11 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.codehaus.jackson#jackson-core-asl;1.9.11 [compile->default(compile)]
 [info] Resolving org.codehaus.jackson#jackson-core-asl;1.9.11 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@400fd958
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@31717494
 [debug] sbt-chain: module revision found in cache: org.codehaus.jackson#jackson-core-asl;1.9.11
 [debug] 	local: revision in cache: org.codehaus.jackson#jackson-core-asl;1.9.11
 [debug] 	found org.codehaus.jackson#jackson-core-asl;1.9.11 in sbt-chain
@@ -1104,7 +1104,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.codehaus.jackson#jackson-core-asl;1.9.11 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.jodd#jodd-core;3.6.3 [compile->default(compile)]
 [info] Resolving org.jodd#jodd-core;3.6.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@371965cd
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@472ad8b4
 [debug] sbt-chain: module revision found in cache: org.jodd#jodd-core;3.6.3
 [debug] 	local: revision in cache: org.jodd#jodd-core;3.6.3
 [debug] 	found org.jodd#jodd-core;3.6.3 in sbt-chain
@@ -1113,7 +1113,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.jodd#jodd-core;3.6.3 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.spark#spark-graphx_2.11;1.3.0 [compile->default(compile)]
 [info] Resolving org.apache.spark#spark-graphx_2.11;1.3.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3a5b069c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5933c253
 [debug] sbt-chain: module revision found in cache: org.apache.spark#spark-graphx_2.11;1.3.0
 [debug] 	local: revision in cache: org.apache.spark#spark-graphx_2.11;1.3.0
 [debug] 	found org.apache.spark#spark-graphx_2.11;1.3.0 in sbt-chain
@@ -1122,7 +1122,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.apache.spark#spark-graphx_2.11;1.3.0 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.jblas#jblas;1.2.3 [compile->default(compile)]
 [info] Resolving org.jblas#jblas;1.2.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@51c1659f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6c9a587b
 [debug] sbt-chain: module revision found in cache: org.jblas#jblas;1.2.3
 [debug] 	local: revision in cache: org.jblas#jblas;1.2.3
 [debug] 	found org.jblas#jblas;1.2.3 in sbt-chain
@@ -1131,7 +1131,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.jblas#jblas;1.2.3 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.scalanlp#breeze_2.11;0.11.1 [compile->default(compile)]
 [info] Resolving org.scalanlp#breeze_2.11;0.11.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7ebc0d3a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5b2ac5c1
 [debug] sbt-chain: module revision found in cache: org.scalanlp#breeze_2.11;0.11.1
 [debug] 	local: revision in cache: org.scalanlp#breeze_2.11;0.11.1
 [debug] 	found org.scalanlp#breeze_2.11;0.11.1 in sbt-chain
@@ -1140,7 +1140,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.scalanlp#breeze_2.11;0.11.1 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.scalanlp#breeze-macros_2.11;0.11.1 [compile->default(compile)]
 [info] Resolving org.scalanlp#breeze-macros_2.11;0.11.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@11ca3cde
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@a1223e
 [debug] sbt-chain: module revision found in cache: org.scalanlp#breeze-macros_2.11;0.11.1
 [debug] 	local: revision in cache: org.scalanlp#breeze-macros_2.11;0.11.1
 [debug] 	found org.scalanlp#breeze-macros_2.11;0.11.1 in sbt-chain
@@ -1149,7 +1149,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.scalanlp#breeze-macros_2.11;0.11.1 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.github.fommil.netlib#core;1.1.2 [compile->default(compile)]
 [info] Resolving com.github.fommil.netlib#core;1.1.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2fea5d80
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@14bccd5e
 [debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#core;1.1.2
 [debug] 	local: revision in cache: com.github.fommil.netlib#core;1.1.2
 [debug] 	found com.github.fommil.netlib#core;1.1.2 in sbt-chain
@@ -1158,7 +1158,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.github.fommil.netlib#core;1.1.2 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->default(compile)]
 [info] Resolving net.sourceforge.f2j#arpack_combined_all;0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@25bd6851
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@296e41ab
 [debug] sbt-chain: module revision found in cache: net.sourceforge.f2j#arpack_combined_all;0.1
 [debug] 	local: revision in cache: net.sourceforge.f2j#arpack_combined_all;0.1
 [debug] 	found net.sourceforge.f2j#arpack_combined_all;0.1 in sbt-chain
@@ -1167,7 +1167,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->net.sf.opencsv#opencsv;2.3 [compile->default(compile)]
 [info] Resolving net.sf.opencsv#opencsv;2.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7b3f21cc
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@795f5f7c
 [debug] sbt-chain: module revision found in cache: net.sf.opencsv#opencsv;2.3
 [debug] 	local: revision in cache: net.sf.opencsv#opencsv;2.3
 [debug] 	found net.sf.opencsv#opencsv;2.3 in sbt-chain
@@ -1176,7 +1176,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->net.sf.opencsv#opencsv;2.3 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.github.rwl#jtransforms;2.4.0 [compile->default(compile)]
 [info] Resolving com.github.rwl#jtransforms;2.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4916de75
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@400fd958
 [debug] sbt-chain: module revision found in cache: com.github.rwl#jtransforms;2.4.0
 [debug] 	local: revision in cache: com.github.rwl#jtransforms;2.4.0
 [debug] 	found com.github.rwl#jtransforms;2.4.0 in sbt-chain
@@ -1185,7 +1185,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->com.github.rwl#jtransforms;2.4.0 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.spire-math#spire_2.11;0.7.4 [compile->default(compile)]
 [info] Resolving org.spire-math#spire_2.11;0.7.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7c88ed7c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@371965cd
 [debug] sbt-chain: module revision found in cache: org.spire-math#spire_2.11;0.7.4
 [debug] 	local: revision in cache: org.spire-math#spire_2.11;0.7.4
 [debug] 	found org.spire-math#spire_2.11;0.7.4 in sbt-chain
@@ -1194,7 +1194,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.spire-math#spire_2.11;0.7.4 [compile->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.spire-math#spire-macros_2.11;0.7.4 [compile->default(compile)]
 [info] Resolving org.spire-math#spire-macros_2.11;0.7.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@24bc84f2
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3a5b069c
 [debug] sbt-chain: module revision found in cache: org.spire-math#spire-macros_2.11;0.7.4
 [debug] 	local: revision in cache: org.spire-math#spire-macros_2.11;0.7.4
 [debug] 	found org.spire-math#spire-macros_2.11;0.7.4 in sbt-chain
@@ -2266,7 +2266,7 @@
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.spire-math#spire-macros_2.11;0.7.4 [runtime->master]
 [debug] == resolving dependencies hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0->org.slf4j#slf4j-api;1.7.10 [runtime->default(compile)]
 [info] Resolving org.slf4j#slf4j-api;1.7.10 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5847513b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@12fce942
 [debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.10
 [debug] 	local: revision in cache: org.slf4j#slf4j-api;1.7.10
 [debug] 	found org.slf4j#slf4j-api;1.7.10 in sbt-chain
@@ -9075,7 +9075,7 @@
 [debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.10!slf4j-api.jar(doc)
 [debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.10!slf4j-api.jar(src)
 [debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.10!slf4j-api.jar
-[debug] :: resolution report :: resolve 3151ms :: artifacts dl 266ms
+[debug] :: resolution report :: resolve 3541ms :: artifacts dl 207ms
 [debug] 	report for hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0 compile produced in /Users/Yoann/Documents/BitBucket/Breizhcamp/target/resolution-cache/reports/hands-on-mix-it-2015-hands-on-mix-it-2015$sources_javadoc_2.11-compile.xml
 [debug] 	report for hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0 runtime produced in /Users/Yoann/Documents/BitBucket/Breizhcamp/target/resolution-cache/reports/hands-on-mix-it-2015-hands-on-mix-it-2015$sources_javadoc_2.11-runtime.xml
 [debug] 	report for hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0 test produced in /Users/Yoann/Documents/BitBucket/Breizhcamp/target/resolution-cache/reports/hands-on-mix-it-2015-hands-on-mix-it-2015$sources_javadoc_2.11-test.xml
@@ -9088,4 +9088,4 @@
 [debug] 	report for hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0 sources produced in /Users/Yoann/Documents/BitBucket/Breizhcamp/target/resolution-cache/reports/hands-on-mix-it-2015-hands-on-mix-it-2015$sources_javadoc_2.11-sources.xml
 [debug] 	report for hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0 docs produced in /Users/Yoann/Documents/BitBucket/Breizhcamp/target/resolution-cache/reports/hands-on-mix-it-2015-hands-on-mix-it-2015$sources_javadoc_2.11-docs.xml
 [debug] 	report for hands-on-mix-it-2015#hands-on-mix-it-2015$sources_javadoc_2.11;1.0 pom produced in /Users/Yoann/Documents/BitBucket/Breizhcamp/target/resolution-cache/reports/hands-on-mix-it-2015-hands-on-mix-it-2015$sources_javadoc_2.11-pom.xml
-[debug] 	resolve done (3151ms resolve - 266ms download)
+[debug] 	resolve done (3541ms resolve - 207ms download)
