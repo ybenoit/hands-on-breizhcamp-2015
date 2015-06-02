@@ -1,6 +1,11 @@
 package com.xebia.spark.kMeansClustering
 
+import com.xebia.spark.kMeansClustering.features.Engineering.featureEngineering
+import com.xebia.spark.kMeansClustering.tools.Utilities.clustersInfo
+import org.apache.spark.mllib.linalg.Vector
+import org.apache.spark.rdd.RDD
 import org.apache.spark.{SparkConf, SparkContext}
+import org.apache.spark.mllib.clustering.{KMeansModel, KMeans}
 
 object KMeansClusteringStubs {
 
