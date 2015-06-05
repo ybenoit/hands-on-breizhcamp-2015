@@ -1,20 +1,20 @@
-[info] Updating {file:/Users/Yoann/Documents/BitBucket/Breizhcamp/project/}default-d10824...
-[debug] :: resolving dependencies :: default#default-d10824;0.1-SNAPSHOT
+[info] Updating {file:/Users/albanphelip/Documents/Xebia/BreizhCamp/hands-on-breizhcamp-2015/project/}default-794b71...
+[debug] :: resolving dependencies :: default#default-794b71;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom]
 [debug] 	validate = true
 [debug] 	refresh = false
 [debug] resolving dependencies for configuration 'compile'
-[debug] == resolving dependencies for default#default-d10824;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies for default#default-794b71;0.1-SNAPSHOT [compile]
 [debug] resolving dependencies for configuration 'runtime'
-[debug] == resolving dependencies for default#default-d10824;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#default-d10824;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies for default#default-794b71;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#default-794b71;0.1-SNAPSHOT [compile]
 [debug] resolving dependencies for configuration 'test'
-[debug] == resolving dependencies for default#default-d10824;0.1-SNAPSHOT [test]
-[debug] == resolving dependencies for default#default-d10824;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#default-d10824;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies for default#default-794b71;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for default#default-794b71;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#default-794b71;0.1-SNAPSHOT [compile]
 [debug] resolving dependencies for configuration 'provided'
-[debug] == resolving dependencies for default#default-d10824;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#default-d10824;0.1-SNAPSHOT->org.scala-sbt#sbt;0.12.4 [provided->default(compile)]
+[debug] == resolving dependencies for default#default-794b71;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#default-794b71;0.1-SNAPSHOT->org.scala-sbt#sbt;0.12.4 [provided->default(compile)]
 [info] Resolving org.scala-sbt#sbt;0.12.4 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#sbt;0.12.4 {provided=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#sbt;0.12.4
@@ -536,18 +536,18 @@
 [debug] == resolving dependencies org.scala-sbt#sbt;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->runtime]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->compile]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->master]
-[debug] == resolving dependencies default#default-d10824;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->default(compile)]
-[debug] == resolving dependencies default#default-d10824;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->runtime]
-[debug] == resolving dependencies default#default-d10824;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->compile]
-[debug] == resolving dependencies default#default-d10824;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->master]
+[debug] == resolving dependencies default#default-794b71;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->default(compile)]
+[debug] == resolving dependencies default#default-794b71;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->runtime]
+[debug] == resolving dependencies default#default-794b71;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->compile]
+[debug] == resolving dependencies default#default-794b71;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->master]
 [debug] resolving dependencies for configuration 'optional'
-[debug] == resolving dependencies for default#default-d10824;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#default-794b71;0.1-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'compile-internal'
-[debug] == resolving dependencies for default#default-d10824;0.1-SNAPSHOT [compile-internal]
-[debug] == resolving dependencies for default#default-d10824;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies for default#default-d10824;0.1-SNAPSHOT [optional]
-[debug] == resolving dependencies for default#default-d10824;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#default-d10824;0.1-SNAPSHOT->org.scala-sbt#sbt;0.12.4 [provided->default(compile)]
+[debug] == resolving dependencies for default#default-794b71;0.1-SNAPSHOT [compile-internal]
+[debug] == resolving dependencies for default#default-794b71;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies for default#default-794b71;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#default-794b71;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#default-794b71;0.1-SNAPSHOT->org.scala-sbt#sbt;0.12.4 [provided->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.12.4->org.scala-sbt#main;0.12.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#main;0.12.4->org.scala-sbt#actions;0.12.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#actions;0.12.4->org.scala-sbt#classpath;0.12.4 [compile->default(compile)]
@@ -859,23 +859,23 @@
 [debug] == resolving dependencies org.scala-sbt#sbt;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->runtime]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->compile]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->master]
-[debug] == resolving dependencies default#default-d10824;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->default(compile)]
-[debug] == resolving dependencies default#default-d10824;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->runtime]
-[debug] == resolving dependencies default#default-d10824;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->compile]
-[debug] == resolving dependencies default#default-d10824;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->master]
+[debug] == resolving dependencies default#default-794b71;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->default(compile)]
+[debug] == resolving dependencies default#default-794b71;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->runtime]
+[debug] == resolving dependencies default#default-794b71;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->compile]
+[debug] == resolving dependencies default#default-794b71;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->master]
 [debug] resolving dependencies for configuration 'runtime-internal'
-[debug] == resolving dependencies for default#default-d10824;0.1-SNAPSHOT [runtime-internal]
-[debug] == resolving dependencies for default#default-d10824;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#default-d10824;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies for default#default-d10824;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#default-794b71;0.1-SNAPSHOT [runtime-internal]
+[debug] == resolving dependencies for default#default-794b71;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#default-794b71;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies for default#default-794b71;0.1-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'test-internal'
-[debug] == resolving dependencies for default#default-d10824;0.1-SNAPSHOT [test-internal]
-[debug] == resolving dependencies for default#default-d10824;0.1-SNAPSHOT [test]
-[debug] == resolving dependencies for default#default-d10824;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#default-d10824;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies for default#default-d10824;0.1-SNAPSHOT [optional]
-[debug] == resolving dependencies for default#default-d10824;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#default-d10824;0.1-SNAPSHOT->org.scala-sbt#sbt;0.12.4 [provided->default(compile)]
+[debug] == resolving dependencies for default#default-794b71;0.1-SNAPSHOT [test-internal]
+[debug] == resolving dependencies for default#default-794b71;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for default#default-794b71;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#default-794b71;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies for default#default-794b71;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#default-794b71;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#default-794b71;0.1-SNAPSHOT->org.scala-sbt#sbt;0.12.4 [provided->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.12.4->org.scala-sbt#main;0.12.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#main;0.12.4->org.scala-sbt#actions;0.12.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#actions;0.12.4->org.scala-sbt#classpath;0.12.4 [compile->default(compile)]
@@ -1187,19 +1187,19 @@
 [debug] == resolving dependencies org.scala-sbt#sbt;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->runtime]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->compile]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->master]
-[debug] == resolving dependencies default#default-d10824;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->default(compile)]
-[debug] == resolving dependencies default#default-d10824;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->runtime]
-[debug] == resolving dependencies default#default-d10824;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->compile]
-[debug] == resolving dependencies default#default-d10824;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->master]
+[debug] == resolving dependencies default#default-794b71;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->default(compile)]
+[debug] == resolving dependencies default#default-794b71;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->runtime]
+[debug] == resolving dependencies default#default-794b71;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->compile]
+[debug] == resolving dependencies default#default-794b71;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->master]
 [debug] resolving dependencies for configuration 'plugin'
-[debug] == resolving dependencies for default#default-d10824;0.1-SNAPSHOT [plugin]
+[debug] == resolving dependencies for default#default-794b71;0.1-SNAPSHOT [plugin]
 [debug] resolving dependencies for configuration 'sources'
-[debug] == resolving dependencies for default#default-d10824;0.1-SNAPSHOT [sources]
+[debug] == resolving dependencies for default#default-794b71;0.1-SNAPSHOT [sources]
 [debug] resolving dependencies for configuration 'docs'
-[debug] == resolving dependencies for default#default-d10824;0.1-SNAPSHOT [docs]
+[debug] == resolving dependencies for default#default-794b71;0.1-SNAPSHOT [docs]
 [debug] resolving dependencies for configuration 'pom'
-[debug] == resolving dependencies for default#default-d10824;0.1-SNAPSHOT [pom]
-[debug] 	resolved ivy file produced in /Users/Yoann/Documents/BitBucket/Breizhcamp/project/target/resolution-cache/default/default-d10824/scala_2.9.2/sbt_0.12/0.1-SNAPSHOT/resolved.xml.xml
+[debug] == resolving dependencies for default#default-794b71;0.1-SNAPSHOT [pom]
+[debug] 	resolved ivy file produced in /Users/albanphelip/Documents/Xebia/BreizhCamp/hands-on-breizhcamp-2015/project/target/resolution-cache/default/default-794b71/scala_2.9.2/sbt_0.12/0.1-SNAPSHOT/resolved.xml.xml
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scala-sbt#sbt;0.12.4!sbt.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#main;0.12.4!main.jar
@@ -1242,18 +1242,18 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#cache;0.12.4!cache.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.12.4!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-tools.testing#test-interface;0.5!test-interface.jar
-[debug] :: resolution report :: resolve 1513ms :: artifacts dl 52ms
-[debug] 	report for default#default-d10824;0.1-SNAPSHOT compile produced in /Users/Yoann/Documents/BitBucket/Breizhcamp/project/target/resolution-cache/reports/default-default-d10824-compile.xml
-[debug] 	report for default#default-d10824;0.1-SNAPSHOT runtime produced in /Users/Yoann/Documents/BitBucket/Breizhcamp/project/target/resolution-cache/reports/default-default-d10824-runtime.xml
-[debug] 	report for default#default-d10824;0.1-SNAPSHOT test produced in /Users/Yoann/Documents/BitBucket/Breizhcamp/project/target/resolution-cache/reports/default-default-d10824-test.xml
-[debug] 	report for default#default-d10824;0.1-SNAPSHOT provided produced in /Users/Yoann/Documents/BitBucket/Breizhcamp/project/target/resolution-cache/reports/default-default-d10824-provided.xml
-[debug] 	report for default#default-d10824;0.1-SNAPSHOT optional produced in /Users/Yoann/Documents/BitBucket/Breizhcamp/project/target/resolution-cache/reports/default-default-d10824-optional.xml
-[debug] 	report for default#default-d10824;0.1-SNAPSHOT compile-internal produced in /Users/Yoann/Documents/BitBucket/Breizhcamp/project/target/resolution-cache/reports/default-default-d10824-compile-internal.xml
-[debug] 	report for default#default-d10824;0.1-SNAPSHOT runtime-internal produced in /Users/Yoann/Documents/BitBucket/Breizhcamp/project/target/resolution-cache/reports/default-default-d10824-runtime-internal.xml
-[debug] 	report for default#default-d10824;0.1-SNAPSHOT test-internal produced in /Users/Yoann/Documents/BitBucket/Breizhcamp/project/target/resolution-cache/reports/default-default-d10824-test-internal.xml
-[debug] 	report for default#default-d10824;0.1-SNAPSHOT plugin produced in /Users/Yoann/Documents/BitBucket/Breizhcamp/project/target/resolution-cache/reports/default-default-d10824-plugin.xml
-[debug] 	report for default#default-d10824;0.1-SNAPSHOT sources produced in /Users/Yoann/Documents/BitBucket/Breizhcamp/project/target/resolution-cache/reports/default-default-d10824-sources.xml
-[debug] 	report for default#default-d10824;0.1-SNAPSHOT docs produced in /Users/Yoann/Documents/BitBucket/Breizhcamp/project/target/resolution-cache/reports/default-default-d10824-docs.xml
-[debug] 	report for default#default-d10824;0.1-SNAPSHOT pom produced in /Users/Yoann/Documents/BitBucket/Breizhcamp/project/target/resolution-cache/reports/default-default-d10824-pom.xml
-[debug] 	resolve done (1513ms resolve - 52ms download)
+[debug] :: resolution report :: resolve 1356ms :: artifacts dl 45ms
+[debug] 	report for default#default-794b71;0.1-SNAPSHOT compile produced in /Users/albanphelip/Documents/Xebia/BreizhCamp/hands-on-breizhcamp-2015/project/target/resolution-cache/reports/default-default-794b71-compile.xml
+[debug] 	report for default#default-794b71;0.1-SNAPSHOT runtime produced in /Users/albanphelip/Documents/Xebia/BreizhCamp/hands-on-breizhcamp-2015/project/target/resolution-cache/reports/default-default-794b71-runtime.xml
+[debug] 	report for default#default-794b71;0.1-SNAPSHOT test produced in /Users/albanphelip/Documents/Xebia/BreizhCamp/hands-on-breizhcamp-2015/project/target/resolution-cache/reports/default-default-794b71-test.xml
+[debug] 	report for default#default-794b71;0.1-SNAPSHOT provided produced in /Users/albanphelip/Documents/Xebia/BreizhCamp/hands-on-breizhcamp-2015/project/target/resolution-cache/reports/default-default-794b71-provided.xml
+[debug] 	report for default#default-794b71;0.1-SNAPSHOT optional produced in /Users/albanphelip/Documents/Xebia/BreizhCamp/hands-on-breizhcamp-2015/project/target/resolution-cache/reports/default-default-794b71-optional.xml
+[debug] 	report for default#default-794b71;0.1-SNAPSHOT compile-internal produced in /Users/albanphelip/Documents/Xebia/BreizhCamp/hands-on-breizhcamp-2015/project/target/resolution-cache/reports/default-default-794b71-compile-internal.xml
+[debug] 	report for default#default-794b71;0.1-SNAPSHOT runtime-internal produced in /Users/albanphelip/Documents/Xebia/BreizhCamp/hands-on-breizhcamp-2015/project/target/resolution-cache/reports/default-default-794b71-runtime-internal.xml
+[debug] 	report for default#default-794b71;0.1-SNAPSHOT test-internal produced in /Users/albanphelip/Documents/Xebia/BreizhCamp/hands-on-breizhcamp-2015/project/target/resolution-cache/reports/default-default-794b71-test-internal.xml
+[debug] 	report for default#default-794b71;0.1-SNAPSHOT plugin produced in /Users/albanphelip/Documents/Xebia/BreizhCamp/hands-on-breizhcamp-2015/project/target/resolution-cache/reports/default-default-794b71-plugin.xml
+[debug] 	report for default#default-794b71;0.1-SNAPSHOT sources produced in /Users/albanphelip/Documents/Xebia/BreizhCamp/hands-on-breizhcamp-2015/project/target/resolution-cache/reports/default-default-794b71-sources.xml
+[debug] 	report for default#default-794b71;0.1-SNAPSHOT docs produced in /Users/albanphelip/Documents/Xebia/BreizhCamp/hands-on-breizhcamp-2015/project/target/resolution-cache/reports/default-default-794b71-docs.xml
+[debug] 	report for default#default-794b71;0.1-SNAPSHOT pom produced in /Users/albanphelip/Documents/Xebia/BreizhCamp/hands-on-breizhcamp-2015/project/target/resolution-cache/reports/default-default-794b71-pom.xml
+[debug] 	resolve done (1356ms resolve - 45ms download)
 [info] Done updating.
