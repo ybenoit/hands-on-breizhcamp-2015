@@ -7,13 +7,13 @@ def sum(n1: Double, n2: Double) = {
   n1 + n2
 }
 
-// Définir un Array
-val myArray = Array(1,2,3,4)
-
 // Définir et lire un tuple
 val myTuple = ("key", 1)
 println(myTuple._1) // Affiche key
 println(myTuple._2) // Affiche 1
+
+// Définir un Array
+val myArray = Array(1,2,3,4)
 
 
 /**** Functionnal Programming 101 ****/
