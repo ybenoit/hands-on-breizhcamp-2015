@@ -12,8 +12,10 @@ val myTuple = ("key", 1)
 println(myTuple._1) // Affiche key
 println(myTuple._2) // Affiche 1
 
-// Définir un Array
+// Définir et lire un Array
 val myArray = Array(1,2,3,4)
+println(myArray(0)) // Retourne 1
+println(myArray(2)) // Retourne 3
 
 
 /**** Functionnal Programming 101 ****/
