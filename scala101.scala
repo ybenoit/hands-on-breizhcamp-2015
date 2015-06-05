@@ -1,3 +1,4 @@
+import org.apache.spark.rdd.RDD
 /**** Scala 101 ****/
 // Definir une variable
 val myVariable = 2
