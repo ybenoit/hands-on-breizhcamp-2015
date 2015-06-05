@@ -36,7 +36,7 @@ object DecisionTreeClassificationSolution {
 
     // Prediction & Evaluation
     val accuracyTest = accuracyDecisionTree(model, testSet)
-n
+
     // Print results
     println(s"Results for the test set")
     println(s"\t Accuracy: $accuracyTest %")
