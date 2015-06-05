@@ -367,44 +367,69 @@ public class WordCount {
             </div>
         </section>
         <section>
-            <h3>Quelques exemples</h3>
+            <h3>Scala 101</h3>
             <pre class="scala"><code class="hljs">
-scala> val textFile = sc.textFile("README.md")
-textFile: org.apache.spark.rdd.RDD[String] = README.md MappedRDD[3] at textFile at &lt;console>:12
+// Definir une variable
+val myVariable = 2
 
-scala> textFile.count()
-res0: Long = 141
+// Definir une fonction
+def sum(n1: Double, n2: Double) = {
+n1 + n2
+}
 
-scala> textFile.first()
-res1: String = # Apache Spark
+// Définir et lire un tuple
+val myTuple = ("key", 1)
+println(myTuple._1) // Affiche key
+println(myTuple._2) // Affiche 1
 
-scala> val linesWithSpark = textFile.filter(line => line.contains("Spark"))
-linesWithSpark: org.apache.spark.rdd.RDD[String] = FilteredRDD[4] at filter at &lt;console>:14
-
-scala> linesWithSpark.count()
-res2: Long = 21
-
-scala> textFile.cache()
-res3: textFile.type = README.md MappedRDD[1] at textFile at &lt;console>:12
+// Définir et lire un Array
+val myArray = Array(1,2,3,4)
+println(myArray(0)) // Retourne 1
+println(myArray(2)) // Retourne 3
             </code></pre>
         </section>
         <section>
-            <h3>Quelques commandes utiles</h3>
-            <pre><code class="hljs scala">
-val textFile = sc.textFile("README.md")
+            <h3>Programmation Fonctionnelle 101</h3>
+            <pre class="scala"><code class="hljs">
+val myArray = Array(1,2,3,4)
+
+// Map
+myArray.map(x => x + 1) // Retourne Array(2,3,4,5)
+
+// Filter
+myArray.filter(x => x > 3) // Retourne Array(4,5)
+
+            </code></pre>
+        </section>
+
+        <section>
+            <h3>API Spark 101</h3>
+            <pre class="scala"><code class="hljs">
+// Lire un fichier
+val myData = sc.textFile("README.md")
+
+// Compter les lignes
+myData.count()
+
+// Récupérer la première ligne
+myData.first()
 
 // Prendre les 10 premières ligne d'un RDD
-val first10 = textFile.take(10)
+val first10 = myData.take(10)
 
 // Les afficher
 first10.foreach(println)
 
-// Les tuples
-val tuple = ("key1", 3)
-println(tuple._1) // Affiche key1
-println(tuple._2) // Affiche 3
+// Filtrer les lignes
+val linesWithSpark = myData.filter(line => line.contains("Spark"))
+
+// Monter les données en mémoire
+myData.cache()
+
             </code></pre>
         </section>
+
+
         <section>
             <h3>WordCount</h3>
             <pre class="scala"><code class="hljs">

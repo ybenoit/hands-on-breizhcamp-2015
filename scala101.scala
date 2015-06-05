@@ -35,6 +35,12 @@ myData.count()
 // Récupérer la première ligne
 myData.first()
 
+// Prendre les 10 premières ligne d'un RDD
+val first10 = myData.take(10)
+
+// Les afficher
+first10.foreach(println)
+
 // Filtrer les lignes
 val linesWithSpark = myData.filter(line => line.contains("Spark"))
 linesWithSpark.count()
