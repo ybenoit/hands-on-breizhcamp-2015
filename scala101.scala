@@ -48,6 +48,17 @@ linesWithSpark.count()
 // Monter les données en mémoire
 myData.cache()
 
+
+/**** MLlib 101 ****/
+// Entrainer un modèle
+val myTrainData: RDD[LabeledPoint] = ...  // ou RDD[Vector]
+val model = MyModel.train(myTrainData, params) // Retourne un modèle entrainé
+
+// Faire des prédictions
+val myTestData: RDD[LabeledPoint] = ... 
+val predictions: RDD[Int] = myTestData.map(l => model.predict(l.features)) // Retourne un RDD contenant les prédictions
+
+
 /**************
 Pour aller plus loin : 
 https://github.com/xbucchiotty/scala-for-beginners
