@@ -16,8 +16,8 @@ body {
 }
 
 .slide {
-    background: url('../../images/logo-xebia.png') white no-repeat fixed;
-    background-size: 55px;
+    background: url('../../images/logo-breizhcamp.jpg') white no-repeat fixed;
+    background-size: 100px;
 }
 
 .center {
@@ -28,7 +28,7 @@ body {
     padding: 5px 0;
     position: fixed;
     bottom: 0;
-    background: #800080;
+    background: #FFA500;
     width: 100%;
     color: white;
     font-size: 0.8em;
@@ -54,7 +54,7 @@ body {
 }
 
 .slide0 .footer {
-    background: #800080;
+    background: #FFA500;
 }
 
 .reveal {
@@ -66,7 +66,7 @@ body {
 
 ::selection {
     color: #fff;
-    background: #800080;
+    background: #FFA500;
     text-shadow: none;
 }
 
@@ -84,7 +84,7 @@ body {
 .reveal h5,
 .reveal h6 {
     margin: 0 0 20px 0;
-    color: #800080;
+    color: #FFA500;
     font-family: 'Source Sans Pro', Helvetica, sans-serif;
     font-weight: 600;
     line-height: 1.2;
@@ -96,7 +96,7 @@ body {
 
 .reveal h1 {
     font-size: 2.5em;
-    color: #800080;
+    color: #FFA500;
     border-bottom: 5px solid #CC6528;
     margin-top: -2em;
     margin-left: -1em;
@@ -106,7 +106,7 @@ body {
 
 .reveal h2 {
     font-size: 1.5em;
-    color: #800080;
+    color: #FFA500;
     border-bottom: 5px solid #CC6528;
     text-align: left;
 }
@@ -114,7 +114,7 @@ body {
 .reveal h3 {
     font-size: 1.3em;
     text-align: left;
-    color: #800080;
+    color: #FFA500;
 }
 
 .reveal h4 {
@@ -234,7 +234,7 @@ body {
     overflow: auto;
     max-height: 400px;
     word-wrap: normal;
-    border: 1px solid #800080;
+    border: 1px solid #FFA500;
 }
 
 .reveal table {
@@ -278,7 +278,7 @@ body {
 }
 
 .reveal a {
-    color: #800080;
+    color: #FFA500;
     text-decoration: none;
     -webkit-transition: color 0.15s ease;
     -moz-transition: color 0.15s ease;
@@ -293,7 +293,7 @@ body {
 
 .reveal .roll span:after {
     color: #fff;
-    background: #800080;
+    background: #FFA500;
 }
 
 .reveal a img {
@@ -310,38 +310,38 @@ body {
 
 .reveal .controls div.navigate-left,
 .reveal .controls div.navigate-left.enabled {
-    border-right-color: #800080;
+    border-right-color: #FFA500;
 }
 
 .reveal .controls div.navigate-right,
 .reveal .controls div.navigate-right.enabled {
-    border-left-color: #800080;
+    border-left-color: #FFA500;
 }
 
 .reveal .controls div.navigate-up,
 .reveal .controls div.navigate-up.enabled {
-    border-bottom-color: #800080;
+    border-bottom-color: #FFA500;
 }
 
 .reveal .controls div.navigate-down,
 .reveal .controls div.navigate-down.enabled {
-    border-top-color: #800080;
+    border-top-color: #FFA500;
 }
 
 .reveal .controls div.navigate-left.enabled:hover {
-    border-right-color: #800080;
+    border-right-color: #FFA500;
 }
 
 .reveal .controls div.navigate-right.enabled:hover {
-    border-left-color: #800080;
+    border-left-color: #FFA500;
 }
 
 .reveal .controls div.navigate-up.enabled:hover {
-    border-bottom-color: #800080;
+    border-bottom-color: #FFA500;
 }
 
 .reveal .controls div.navigate-down.enabled:hover {
-    border-top-color: #800080;
+    border-top-color: #FFA500;
 }
 
 .reveal .progress {
