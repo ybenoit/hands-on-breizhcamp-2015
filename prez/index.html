@@ -498,6 +498,26 @@ val neg = LabeledPoint(0.0, Vectors.sparse(3, Array(0, 2), Array(1.0, 3.0)))
             </code></pre>
         </section>
         <section>
+            <h3>Les Labeled Point : exemple</h3>
+<center>Fichier d'entrée : </center>
+            <TABLE BORDER="1">
+                    <TR><TD>0,23,2.4</TD></TR>
+                    <TR><TD>0,12,3.1</TD></TR>
+                    <TR><TD>1,16,0.5</TD></TR>
+            </TABLE>
+
+            <pre class="scala"><code class="hljs">
+// Lecture du fichier
+val data: RDD[String] = sc.textFile("/path/to/myData.csv")
+
+// Transformation des données
+val cleanData: RDD[Array[Double]] = data.map(line => line.split(",").map(value => value.toDouble))
+
+// Création des données labelisées
+val labeledData: RDD[LabeledPoint] = cleanData.map(line => LabeledPoint(line.head, Vectors.dense(line.tail)))
+            </code></pre>
+        </section>
+        <section>
             <h3>Démarche globale en Data Science</h3>
             <p class="offset-left">
                 <li>
@@ -583,7 +603,7 @@ val neg = LabeledPoint(0.0, Vectors.sparse(3, Array(0, 2), Array(1.0, 3.0)))
                     <span class="bold">Objectif:</span> Prédire qui va survivre ou non au sein du Titanic
                 </p>
                 <p>
-                    Données à disposition pour chaque passager : 
+                    Données à disposition pour chaque passager :
                     <li>La classe</li>
                     <li>Le sexe</li>
                     <li>L'âge</li>
@@ -905,7 +925,7 @@ def gridSearchRFClassifier(trainSet: RDD[LabeledPoint],
            maxBins <- maxBinsGrid)
         yield {
 
-          val model = RandomForest.trainClassifier(trainSet, 2, categoricalFeaturesInfo, numTrees, 
+          val model = RandomForest.trainClassifier(trainSet, 2, categoricalFeaturesInfo, numTrees,
           featuresSubsetStrategy, impurity, maxDepth, maxBins)
           val accuracyVal = accuracyRandomForest(model, valSet)
 
