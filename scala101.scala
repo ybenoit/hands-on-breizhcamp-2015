@@ -2,6 +2,9 @@
 // Definir une variable
 val myVariable = 2
 
+// Afficher myVariable
+println(myVariable)
+
 // Definir une fonction
 def sum(n1: Double, n2: Double) = {
   n1 + n2
@@ -9,13 +12,13 @@ def sum(n1: Double, n2: Double) = {
 
 // Définir et lire un tuple
 val myTuple = ("key", 1)
-println(myTuple._1) // Affiche key
-println(myTuple._2) // Affiche 1
+myTuple._1 // Retourne "key"
+myTuple._2 // Retourne 1
 
 // Définir et lire un Array
 val myArray = Array(1,2,3,4)
-println(myArray(0)) // Retourne 1
-println(myArray(2)) // Retourne 3
+myArray(0) // Retourne 1
+myArray(2) // Retourne 3
 
 
 /**** Functionnal Programming 101 ****/
