@@ -436,8 +436,8 @@ myData.cache()
         <section>
             <h3>WordCount</h3>
             <pre class="scala"><code class="hljs">
-import org.apache.sparkContext
-import org.apache.sparkContext._
+import org.apache.spark.{SparkContext, SparkConf}
+import org.apache.spark.sparkContext._
 
 object wordCount {
   def main(args: Array[String]): Unit = {
@@ -472,6 +472,13 @@ object wordCount {
             </ul>
         </section>
         <section>
+            <h3>Deux types de données : </h3>
+            <ul>
+                <li>Vectors</li>
+                <li>LabeledPoint</li>
+            </ul>
+        </section>
+        <section>
             <h3>Les Vectors</h3>
             <pre class="scala"><code class="hljs">
 import org.apache.spark.mllib.linalg.{Vector, Vectors}
@@ -501,7 +508,7 @@ val neg = LabeledPoint(0.0, Vectors.sparse(3, Array(0, 2), Array(1.0, 3.0)))
             </code></pre>
         </section>
         <section>
-            <h3>Les Labeled Point : exemple</h3>
+            <h3>Un exemple</h3>
 <center>Fichier d'entrée : </center>
             <TABLE BORDER="1">
                     <TR><TD>0,23,2.4</TD></TR>
